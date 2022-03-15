@@ -10,22 +10,22 @@
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/guides/summary/customer-summary.html",
+      "oldURL": "/customer-summary"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/icons.html",
       "oldURL": "/icons"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/references/",
+      "newURL": "https://audience-insights.support.brightcove.com/support/",
       "oldURL": "/index"
   },
 
   {
       "newURL": "https://audience-insights.support.brightcove.com/getting-started/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/support/",
       "oldURL": "/index"
   },
 
@@ -45,11 +45,6 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/references/known-issues.html",
-      "oldURL": "/known-issues"
-  },
-
-  {
       "newURL": "https://audience-insights.support.brightcove.com/support/online-training-courses.html",
       "oldURL": "/online-training-courses"
   },
@@ -57,11 +52,6 @@
   {
       "newURL": "https://audience-insights.support.brightcove.com/support/opening-case-with-brightcove-support.html",
       "oldURL": "/opening-case-with-brightcove-support"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/references/product-updates.html",
-      "oldURL": "/product-updates"
   },
 
   {
