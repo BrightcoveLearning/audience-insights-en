@@ -20,12 +20,17 @@
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/getting-started/",
+      "oldURL": "/index"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/support/",
       "oldURL": "/index"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/getting-started/",
+      "newURL": "https://audience-insights.support.brightcove.com/guides/",
       "oldURL": "/index"
   },
 
@@ -52,6 +57,11 @@
   {
       "newURL": "https://audience-insights.support.brightcove.com/support/opening-case-with-brightcove-support.html",
       "oldURL": "/opening-case-with-brightcove-support"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/getting-started/overview-customer-data.html",
+      "oldURL": "/overview-customer-data"
   },
 
   {

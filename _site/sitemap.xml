@@ -13,7 +13,7 @@
       
     
       <url>
-        <loc>https://audience-insights.support.brightcove.com/getting-started/</loc>
+        <loc>https://audience-insights.support.brightcove.com/getting-started/index.html</loc>
         <lastmod>2022-03-15</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
@@ -21,7 +21,7 @@
       
         <url>
           
-            <loc>https://audience-insights.support.brightcove.com/getting-started/video-cloud-ssai-overview.html</loc>
+            <loc>https://audience-insights.support.brightcove.com/getting-started/overview-customer-data.html</loc>
           
             <lastmod>2022-03-15</lastmod>
             <changefreq>daily</changefreq>
@@ -29,9 +29,17 @@
         </url>
         
       
+    
+      <url>
+        <loc>https://audience-insights.support.brightcove.com/guides/index.html</loc>
+        <lastmod>2022-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+      </url>
+      
         <url>
           
-            <loc>https://studio.support.brightcove.com/admin/configuring-server-side-ad-settings.html</loc>
+            <loc>https://audience-insights.support.brightcove.com/guides/summary/customer-summary.html</loc>
           
             <lastmod>2022-03-15</lastmod>
             <changefreq>daily</changefreq>

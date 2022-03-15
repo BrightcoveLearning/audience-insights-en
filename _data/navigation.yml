@@ -3,12 +3,16 @@
   url: '/'
 - section: 
   name: 'Getting Started'
-  url: '/getting-started/'
+  url: '/getting-started/index.html'
   docs:
-    - name: 'SSAI Overview'
-      url: '/getting-started/video-cloud-ssai-overview.html'
-    - name: 'Configuring Server-Side Ad Settings'
-      url: 'https://studio.support.brightcove.com/admin/configuring-server-side-ad-settings.html'
+    - name: 'Overview: Customer Data'
+      url: '/getting-started/overview-customer-data.html'
+- section: 
+  name: 'Guides'
+  url: '/guides/index.html'
+  docs:
+    - name: 'Customer Summary'
+      url: '/guides/summary/customer-summary.html'
 - section: 
   name: 'Support'
   url: '/support/'
