@@ -5,8 +5,8 @@
   name: 'Getting Started'
   url: '/getting-started/index.html'
   docs:
-    - name: 'Overview: Customer Data'
-      url: '/getting-started/overview-customer-data.html'
+    - name: 'Overview: Audience Insights'
+      url: '/getting-started/overview-audience-insights.html'
 - section: 
   name: 'Guides'
   url: '/guides/index.html'
