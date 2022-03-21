@@ -13,6 +13,8 @@
   docs:
     - name: 'Customer Summary'
       url: '/guides/summary/customer-summary.html'
+    - name: 'Lost Customers'
+      url: '/guides/lost-customers/lost-customers.html'
 - section: 
   name: 'Support'
   url: '/support/'

@@ -10,6 +10,11 @@
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/guides/customers/current-customers.html",
+      "oldURL": "/current-customers"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/guides/summary/customer-summary.html",
       "oldURL": "/customer-summary"
   },
@@ -20,7 +25,7 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/getting-started/",
+      "newURL": "https://audience-insights.support.brightcove.com/guides/",
       "oldURL": "/index"
   },
 
@@ -30,7 +35,7 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/",
+      "newURL": "https://audience-insights.support.brightcove.com/getting-started/",
       "oldURL": "/index"
   },
 
@@ -47,6 +52,11 @@
   {
       "newURL": "https://audience-insights.support.brightcove.com/support/known-issues.html",
       "oldURL": "/known-issues"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/guides/lost-customers/lost-customers.html",
+      "oldURL": "/lost-customers"
   },
 
   {
