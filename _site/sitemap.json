@@ -5,6 +5,11 @@
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/general/calculating_lifetime_value_in_a_svod_bus.html",
+      "oldURL": "/calculating_lifetime_value_in_a_svod_bus"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/support/contact-sales.html",
       "oldURL": "/contact-sales"
   },
@@ -30,12 +35,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/support/",
+      "newURL": "https://audience-insights.support.brightcove.com/getting-started/",
       "oldURL": "/index"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/getting-started/",
+      "newURL": "https://audience-insights.support.brightcove.com/support/",
       "oldURL": "/index"
   },
 
