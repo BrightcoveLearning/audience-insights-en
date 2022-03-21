@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta name="robots" content="noindex,nofollow"> 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="In this topic you will view the Brightcove System Status page for updates on Brightcove services and applications.">
+  <meta name="description" content="In this topic, you will learn about Audience Insight data for your current customers.">
   
-  <title>Viewing the Brightcove System Status Page</title>
+  <title>Current Customers</title>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -62,9 +62,9 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
       
       
       
-      <li class="breadcrumb-item"><a href="/support/">Support</a></li>
+      <li class="breadcrumb-item"><a href="/guides/customers/">Guides</a></li>
       
-      <li class="breadcrumb-item active" aria-current="page">Viewing the Brightcove System Status Page</li>
+      <li class="breadcrumb-item active" aria-current="page">Current Customers</li>
     </ol>
   </nav>
 </header>
@@ -230,81 +230,271 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
     
 
 
-<!-- 
-  This content appears on all sites!
-  
-  If you update in one place, you MUST update it in all!
- -->
+<h1>Current Customers</h1>
+<article class="bcls-article">
+    <summary>In this topic, you will learn about Audience Insight data for your current customers.</summary>
 
- <h1>Viewing the Brightcove System Status Page</h1>
- <article class="bcls-article">
-  <summary>In this topic you will view the Brightcove System Status page for updates on Brightcove services and applications.</summary>
-  <section class="bcls-section">
-    <p>Brightcove continuously monitors the status of all Brightcove Services and applications. If there are any interruptions in service, a note will be posted on the System Status Page. All scheduled maintenance notices will also be posted on this page.</p>
-    <p>To access the System Status Page, visit <a href="https://status.brightcove.com">https://status.brightcove.com</a> or from the  navigation header, click the Support icon (<img class="bcls-image--no-border" alt="" src="https://general.support.brightcove.com/assets/images/support/question-icon.png" />) and then &nbsp;<strong>System Status</strong>.</p>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="https://general.support.brightcove.com/assets/images/support/system-status.png" /></figure>
-    <p>All posted notifications will include the following information:</p>
-    <ul>
-      <li>Incident Status
-        <ul>
-          <li>Operational (Green)</li>
-          <li>Notification (Blue - systems are currently in operation but affected by delays or intermittent outages)</li>
-          <li>Partial Service Disruption (Yellow)</li>
-          <li>Full Service Disruption (Red)</li>
-        </ul>
-      </li>
-      <li>Components - Service or area affected</li>
-      <li>Locations
-        <ul>
-          <li>APAC</li>
-          <li>Americas</li>
-          <li>EMEA</li>
-          <li>Japan</li>
-        </ul>
-      </li>
-      <li>Current State and status. States include:
-        <ul>
-          <li>Investigating - Engineers are looking into the issue</li>
-          <li>Identified - Engineers have identified the issue and are looking to correct</li>
-          <li>Monitoring - Issue resolved and Engineering monitoring to ensure all is healthy</li>
-          <li>Resolved - Issue resolved</li>
-        </ul>
-      </li>
-    </ul>
-    <p>All posted messages will be in English and the time used is Eastern Standard Time (GMT-5).</p>
-  </section>
-  <section class="bcls-section">
-    <h2 id="history">Viewing the system status history</h2>
-    <p>To view the System Status history, click the <strong>History</strong> link at the bottom of the page.</p>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="https://general.support.brightcove.com/assets/images/support/system-status-history.png" /></figure>
-  </section>
-  <section class="bcls-section">
-    <h2 id="subscribe">Subscribing to system status changes</h2>
-    <p>You can sign up to be notified when the system status changes. This section is organized as follows:</p>
-    <ul>
-      <li><a href="#email">Subscribing to email</a></li>
-      <li><a href="#webhook">Subscribing to webhook</a></li>
-      <li><a href="#manage">Managing your subscription</a></li>
-    </ul>
-    <h3 id="email">Subscribing to email</h3>
-    <p>To receive notifications by email, click the <strong>SUBSCRIBE</strong> button, enter your email address and then click <strong>Subscribe</strong>.</p>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="https://general.support.brightcove.com/assets/images/support/system-status-subscribe.png" /></figure>
-    <h3 id="webhook">Subscribing to webhook</h3>
-    <p>A webhook is a defined callback made with HTTP POST. You specify a URL where the callback will post a JSON object when there is a status update.</p>
-    <p>To sign up to be notified when the system status changes, select the <strong>SUBSCRIBE</strong> button. Then enter a URL to receive the JSON payload along with your email address.</p>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="webhook subscribe" src="https://general.support.brightcove.com/assets/images/support/system-status-webhook-subscribe.png" /></figure>
-    <p>When you subscribe, you should see a subscription confirmation similar to this:</p>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="webhook status" src="https://general.support.brightcove.com/assets/images/support/system-status-webhook-status.png" /></figure>
-    <p>When system status changes are sent, your webhook address should receive a JSON object similar to this:</p>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="webhook json" src="https://general.support.brightcove.com/assets/images/support/system-status-webhook-json.png" /></figure>
-    <h3 id="manage">Managing your subscription</h3>
-    <p>After you have subscribed, you will receive an email with a link to a Manage Subscription page that allows you to manage your subscription. You can choose the components/products/regions you are interested in receiving notifications for. Make your selections and then click <strong>Save Subscription</strong>.</p>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="https://general.support.brightcove.com/assets/images/support/system-status-manage-sub.png" /></figure>
-    <p>To unsubscribe, click the <strong>Unsubscribe</strong> link at the bottom of the Manage Subscription page.</p>
-		<h3>Getting notifications in Slack</h3>
-		<p>Slack has its own webhook system that can be used to connect status updates. Consult the <a href="https://api.slack.com/messaging/webhooks">Slack documentation for details.</a></p>
-  </section>
+    <section class="bcls-section">
+      <h2 id="Introduction">Introduction</h2>
+      <p>Audience insight data integrates your OTT (Over-the-Top) video data sources with subscription video insights to provide actionable insights based on key industry benchmarks.</p>
+     
+      <p>From your audience insight scorecard, select the <strong>Customers</strong> tab to see data for your current customers.</p>
+
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Customer summary scorecard" src="/assets/images/guides/customers/current-customers.png" />
+        <figcaption class="bcls-caption--image">Current customer scorecard</figcaption>
+      </figure>
+
+      <p>Expand the time span selector and choose a reporting period for your data.</p>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Select time span" src="/assets/images/guides/customers/time-span.png" />
+      </figure>
+
+    </section>
+
+    <section class="bcls-section">
+      <h2 id="Customers">Customer Count</h2>
+      <p>Track your customer count over time.</p>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Customer count" src="/assets/images/guides/customers/customer-count.png" />
+      </figure>
+
+      <h4>Actions</h4>
+      <p>You can select any of the following actions to change the data presented:</p>
+      <ul>
+        <li>Click <img class="bcls-image--no-border" alt="Overflow menu" src="/assets/images/guides/summary/overflow-menu.png" /> to download customer change data as a CSV file or a PNG image.
+          <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Download customer change data" src="/assets/images/guides/summary/download-csv.png" />
+          </figure>
+        </li>
+        <li>Click <img class="bcls-image--no-border" alt="Open window" src="/assets/images/guides/customers/open-window.png" /> to filter customer data by:
+          <ul>
+            <li>All Customers</li>
+            <li>Plan</li>
+            <li>Channel</li>
+            <li>Device</li>
+            <li>Country</li>
+          </ul>
+        </li>
+      </ul>
+
+      
+      
+    </section>
+
+    <section class="bcls-section">
+      <h2 id="Net_Customer_Change">Net Customer Change</h2>
+      <p>The graph below shows the total number of your customers and the net change over time.</p>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Net Customer Change" src="/assets/images/guides/summary/net-customer-change.png" />
+        <figcaption class="bcls-caption--image">Net Customer Change</figcaption>
+      </figure>
+
+      <h4>Actions</h4>
+      <p>You can select any of the following actions to change the data presented:</p>
+      <ul>
+        <li>Click <img class="bcls-image--no-border" alt="Overflow menu" src="/assets/images/guides/summary/overflow-menu.png" /> to download customer change data as a CSV file or a PNG image.
+          <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Download customer change data" src="/assets/images/guides/summary/download-csv.png" />
+          </figure>
+        </li>
+        <li>Select a date range for your data. Note that the date range should be 5 days or longer. 
+          <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Date range" src="/assets/images/guides/summary/date-range.png" />
+          </figure>
+        </li>
+        <li>Select the x-axis granularity to be <strong>Day</strong>, <strong>Week</strong> or <strong>Month</strong>. 
+          <figure class="bcls-figure"><img class="bcls-image--no-border" alt="X-axis granularity" src="/assets/images/guides/summary/granularity.png" />
+          </figure>
+        </li>
+        <li>Check <img class="bcls-image--no-border" alt="Auto adjust" src="/assets/images/guides/summary/auto-adjust.png" /> to automatically change the x-axis dimension. 
+        </li>
+      </ul>
+
+      <h4>Data</h4>
+      <p>The following data is displayed in the graph:</p>
+
+      <ul>
+        <li><strong>Total customers</strong> - Total number of subscription customers</li>
+        <li><strong>Total customers (projected)</strong> - Total projected number of customers</li>
+        <li><strong>Net change</strong> - Net change in total number of subscription customers</li>
+        <li><strong>Net change (projected)</strong> - Net projected change in total number of subscription customers</li>  
+      </ul>
+      <aside class="bcls-aside bcls-aside--information">Projections are a linear regression analysis based on customer counts over the last 12 weeks. Up to 3 months of predictive data is available.</aside>
+    </section>
+
+    <section class="bcls-section">
+      <h2 id="Customer_Changes_By_Week">Customer Changes By Week</h2>
+      <p>The table below provides information about customer changes by week.</p>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Customer Changes By Week" src="/assets/images/guides/summary/changes-by-week.png" />
+        <figcaption class="bcls-caption--image">Customer Changes By Week</figcaption>
+      </figure>
+
+      <h4>Data</h4>
+      <p>The following data is displayed in the table:</p>
+
+      <ul>
+        <li><strong>Subscribers</strong> - Subscribers include subscription customers and trial users</li>
+        <li><strong>Week start customers</strong> - Number of customers who started a subscription or trial at the start of each week</li>
+        <li><strong>Conversions, free trial</strong> - Number of customers who converted from a free trial to a paid subscription</li>
+        <li><strong>Conversions, direct</strong> - Number of customers who initially signed up for a paid subscription</li>
+        <li><strong>Conversions, gifts</strong> - Number of customers who signed up for a paid subscription after receiving promotional gifts</li>
+        <li><strong>Churn</strong> - Number of customers who canceled a paid subscription or free trial</li>
+        <li><strong>Net change</strong> - Difference between new customer starts and those who canceled (churn)</li>
+        <li><strong>Week end customers</strong> - Number of new customers at the end of each week</li>
+      </ul>
+    </section>
+
+    <section class="bcls-section">
+      <h2 id="Customer_Value">Customer Value</h2>
+      <p>The following quick-view graphs provide insights into customer value over the past 30 days.</p>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Customer Value" src="/assets/images/guides/summary/customer-value.png" />
+        <figcaption class="bcls-caption--image">Customer Value</figcaption>
+      </figure>
+
+      <h4>Data</h4>
+      <p>The following data is displayed in the graphs:</p>
+
+      <ul>
+        <li><strong>LTV</strong> - Lifetime value (LTV) estimates the amount of revenue a customer represents to a business over the life of the relationship; this is helpful for determining the cost efficiency of acquiring new customers and supporting them over time</li>
+        <li><strong>ARPU</strong> - Average revenue per unit (ARPU) is an indicator of profitability based on the amount of money generated from each user</li>
+        <li><strong>Customer Acquisition Cost</strong> -The cost of acquiring a single customer; this can include product, labor, marketing, and other costs</li>
+        <li><strong>Avg New Trials</strong> - Percentage of new trials compared to the total number of customers</li>
+      </ul>
+    </section>
+
+    <section class="bcls-section">
+      <h2 id="Customer_Count">Customer Count</h2>
+      <p>The following graph shows your customer count for the last 30 days. Milestones are listed and presented in the graph using vertical, colored lines.</p>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Customer Count" src="/assets/images/guides/summary/customer-count.png" />
+        <figcaption class="bcls-caption--image">Customer Count</figcaption>
+      </figure>
+
+      <h4>Actions</h4>
+      <p>You can select any of the following actions to change the data presented:</p>
+      <ul>
+        <li>Click <img class="bcls-image--no-border" alt="Open window" src="/assets/images/guides/summary/open-window.png" /> to open a new window with the ability to view data by these options: 
+          <ul>
+            <li><strong>All Customers</strong></li>
+            <li><strong>Plan</strong></li>
+            <li><strong>Channel</strong></li>
+            <li><strong>Device</strong></li>
+            <li><strong>Country</strong></li>
+          </ul>    
+        </li>
+        <li>Click <img class="bcls-image--no-border" alt="Overflow menu" src="/assets/images/guides/summary/overflow-menu.png" /> to download customer change data as a CSV file or a PNG image.
+          <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Download customer change data" src="/assets/images/guides/summary/download-csv.png" />
+          </figure>
+        </li>
+      </ul>
+    </section>
+
+    <section class="bcls-section">
+      <h2 id="Trials_and_conversions">Trials and conversions</h2>
+      <p>View the number of customers on trial plans versus those who have signed up for a subscription.</p>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Trials and conversions" src="/assets/images/guides/summary/trials-and-conversions.png" />
+      </figure>
+
+      <h3>Top Plans</h3>
+      <p>See trial and conversion data for the most popular subscription plans.</p>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Top plans" src="/assets/images/guides/summary/top-plans.png" />
+      </figure>
+
+      <h3>Top Devices</h3>
+      <p>See trial and conversion data for the most popular devices.</p>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Top Devices" src="/assets/images/guides/summary/top-devices.png" />
+      </figure>
+
+      <h3>Top Sources</h3>
+      <p>See trial and conversion data for the most popular sources.</p>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Top Sources" src="/assets/images/guides/summary/top-sources.png" />
+      </figure>
+    </section>
+
+    <section class="bcls-section">
+      <h2 id="Engagement">Engagement</h2>
+      <p>The following quick-view graphs provide insights into customer value over the past 30 days.</p>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Customer Engagement" src="/assets/images/guides/summary/engagement.png" />
+        <figcaption class="bcls-caption--image">Customer Engagement</figcaption>
+      </figure>
+
+      <h4>Data</h4>
+      <p>The following data is displayed in the graphs:</p>
+      <ul>
+        <li><strong>Engagement</strong> - Timeframe for customer engagement data</li>
+        <li><strong>Total views</strong> - Total customer views for all of your content</li>
+        <li><strong>managed/unmanaged</strong> -Systems without user-specific data reporting (i.e. Amazon Channels) are unmanaged; data from these services are not presented in any charts</li>
+        <li><strong>Active Viewers</strong> - Percentage of the total number of viewers who were active in the last 30 days</li>
+        <li><strong>WAU/MAU Ratio</strong> - Weekly Active Users (WAU) as a percentage of Monthly Active Users (MAU); active users are defined as being signed in</li>
+        <li><strong>Avg Hours Streamed</strong> - The average number of hours streamed for a user</li>
+      </ul>
+    </section>
+
+    <section class="bcls-section">
+      <h2 id="Top_Titles">Top Titles</h2>
+      <p>See which titles in your content library has the most video views.</p>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Top Titles" src="/assets/images/guides/summary/top-titles.png" />
+        <figcaption class="bcls-caption--image">Top Titles</figcaption>
+      </figure>
+
+      <h4>Data</h4>
+      <p>The following data is displayed in the table:</p>
+      <ul>
+        <li><strong>Title</strong> - Title of the content viewed</li>
+        <li><strong>Genre</strong> - Stylistic or thematic category for grouping video content</li>
+        <li><strong>Type</strong> - Type of video content or group of content; values are Series, Season, Episode, Movie</li>
+        <li><strong>Audience Size</strong> - Number of unique viewers </li>
+        <li><strong>Video Views</strong> - Number of times a video started playing, recorded when the stream is started (does not include rewind or replay); it is not a measure of individual viewers</li>
+        <li><strong>Video Views 30 Days</strong> - Number of video views for the past 30 days</li>
+        <li><strong>Avg Completion</strong> - Average percentage of the amount of video content viewed by each user</li>
+        <li><strong>Attn Index</strong> - </li>
+      </ul>
+      <p>The following data is displayed in the graphs:</p>
+      <ul>
+        <li><strong>Library Viewed</strong> - Percentage of your video library viewed by all customers</li>
+        <li><strong>Viewers Watching New Content</strong> - Percentage of viewers watching new video content</li>
+        <li><strong>Avg Days Streamed / Mo</strong> - Average number of days streamed per user for the past 30 days</li>
+        <li><strong>Attention Index</strong> - </li>
+      </ul>
+    </section>
+
+    <section class="bcls-section">
+      <h2 id="Top_Series_Movies_Genres">Top Series, Movies, Genres</h2>
+      <p>See the top video views for your series, movies, and genres.</p>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Top Series, Movies, Genres" src="/assets/images/guides/summary/top-series-movies-genres.png" />
+        <figcaption class="bcls-caption--image">Top Series, Movies, Genres</figcaption> 
+      </figure>
+
+      <h4>Data</h4>
+      <p>The following data is displayed in the graphs:</p>
+      <ul>
+        <li><strong>Audience Size</strong> - Total number of viewers</li>
+        <li><strong>Hours Viewed</strong> - Total number of hours viewed by all viewers</li>
+      </ul>
+    </section> 
+    
+    <section class="bcls-section">
+      <h2 id="Hours_Viewed_by_Device">Hours Viewed by Device</h2>
+      <p>See which devices are most popular by your viewers.</p>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Hours Viewed by Device" src="/assets/images/guides/summary/hours-viewed-by-device.png" />
+        <figcaption class="bcls-caption--image">Hours Viewed by Device</figcaption> 
+      </figure>
+
+      <h4>Data</h4>
+      <p>The following data is displayed in the graph:</p>
+      <ul>
+        <li><strong>Hours Viewed</strong> - Number of hours viewed by device</li>
+        <li><strong>Audience Size</strong> - Number of viewers by device</li>
+        <li><strong>Device</strong> - Device used by viewers to watch your content; includes desktop, phone, Roku, Apple TV, other TV</li>
+      </ul>
+
+      <h3>First Watched</h3>
+      <p>See how your video content performs when it is first released.</p>
+      <h4>Data</h4>
+      <p>The following data is displayed in the list:</p>
+      <ul>
+        <li><strong>Title</strong> - Name of your video content</li>
+        <li><strong>Audience Size</strong> - Total number of viewers</li>
+        <li><strong>Attention Index</strong> - </li>
+      </ul>
+    </section> 
+
+
 </article>
+
 <!-- complete bootstrap layout -->
     </div>
     <div class="col-sm-2 right-side-bar">
@@ -320,7 +510,7 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
 
 <hr>
 <div class="last-updated">
-  Page last updated on 07 Mar 2022
+  Page last updated on 21 Mar 2022
 </div>
 
 
