@@ -1,0 +1,6 @@
+[submodule "_includes/s-audience-insights"]
+	path = _includes/s-audience-insights
+	url = https://github.com/BrightcoveLearning/s-audience-insights
+[submodule "assets/images/s-audience-insights-img"]
+	path = assets/images/s-audience-insights-img
+	url = https://github.com/BrightcoveLearning/s-audience-insights-img
