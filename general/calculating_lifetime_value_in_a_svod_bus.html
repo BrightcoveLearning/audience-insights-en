@@ -207,53 +207,34 @@ parent: General Information
             </figure>
             <p>Dandy, right? We receive $50 per customer, so now I can allocate some of that to marketing, operations, and content licensing and keep the rest as our profit.</p>
             <p>Well, sure, but if you actually did this, you would be underinvesting in your business. Because, in subscription-based businesses, the retention rate doesn’t actually follow average churn. Instead, what we see at Wicket Labs is that your new customers churn at a very high rate, often as much as 30-40% monthly churn over the first few billing cycles, while more tenured subscribers churn at a rate in the single digits.</p>
-            <p></p>
+            
             <div id="attachment_27553" style="width: 1034px" class="wp-caption alignnone">
               <img aria-describedby="caption-attachment-27553" loading="lazy" class="wp-image-27553 size-large" src="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/ltv-calc-2-1024x700.png" alt="chart of payments and lifetime value" width="1024" height="700" srcset="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/ltv-calc-2-1024x700.png 1024w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/ltv-calc-2-300x205.png 300w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/ltv-calc-2-768x525.png 768w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/ltv-calc-2-1080x739.png 1080w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/ltv-calc-2.png 1455w" sizes="(max-width: 1024px) 100vw, 1024px">
               <p id="caption-attachment-27553" class="wp-caption-text">Fig. 2</p>
             </div>
-            <p></p>
+            
             <p>However, the actual customer loss curve for our example company, PolarFlix, shows the LTV for this cohort of customers is $66 on October 1, 2020, with over ten customers still active. For a service with 100,000 subscribers, that’s a $1.6 million difference.</p>
             <p>
-              So, how do we make our formulas match our observed lifetime spending? We looked to academic marketing literature for the answer and find some great work that has been done by Peter Fader and Bruce Hardie. We’ve relied heavily on their work on CLV in contractual (i.e. renewing subscription) businesses.
-              <sup class="footnote">
-                [
-                <a href="#1">1</a>
-                ]
-              </sup>
-              Conceptually, this is pretty simple. We use historical data about our customers and create a retention curve. A retention curve shows the probability, as a value from 0 to 1, that a customer with a tenure of n days, will become a customer of tenure n+1 days. From that, it’s simple to show how much revenue we expect to receive. Mathematically, it’s more complicated, but that’s why we have computers!
+              So, how do we make our formulas match our observed lifetime spending? We looked to academic marketing literature for the answer and find some great work that has been done by Peter Fader and Bruce Hardie. We’ve relied heavily on their work on CLV in contractual (i.e. renewing subscription) businesses.<sup class="footnote"> [ <a href="#1">1</a> ] </sup> Conceptually, this is pretty simple. We use historical data about our customers and create a retention curve. A retention curve shows the probability, as a value from 0 to 1, that a customer with a tenure of n days, will become a customer of tenure n+1 days. From that, it’s simple to show how much revenue we expect to receive. Mathematically, it’s more complicated, but that’s why we have computers!
             </p>
             <p>With the Fader and Hardie method, we can even predict the curve beyond the longest tenure of our customers, something that Kaplan-Meier, a very common survival analysis method cannot do. There is an important caveat to this method, though! As you can see in the chart above, the curve may only reach 0 many, many years in the future. You have to choose some cutoff date for valuing these customers. Given the pace of change in our business, it’s safe to say your service isn’t going to be the same in 2038!</p>
             <p>At Wicket Labs, we looked at the actual retention curves of our customers and choose to estimate LTV through 1,000 days of subscription. This allows 2 cycles of churn for annual subscriptions and, for typical churn rates, captures enough of the extra value from the long-tenured subscribers to make a material difference in the LTV.</p>
-            <h2>An accurate LTV enables better investment</h2>
-            <p>Now that you know a more accurate picture of your next customer’s payments, what will you do with this information?</p>
-            <p>An accurate LTV number lets you invest with confidence in acquiring more customers, license more content to address churn, or allows you to lower the price of your service to capture even more customers.</p>
-            <p>In addition, you can use LTV and churn measurements to compare natural segments of your customer base to understand what part of your customer base is healthy and which deserves additional investment. Given the advantages to the predictive model, we are upgrading the Wicket Scorecard to base all LTV values on these retention curves. In future posts, we’ll discuss the implications on specific Wickets.</p>
-        </div>
-      </div>
-    </div>
+            <section class="bcls-section">
+              <h2 id="an_accurate_ltv_enables_better_investment">An accurate LTV enables better investment</h2>
+              <p>Now that you know a more accurate picture of your next customer’s payments, what will you do with this information?</p>
+              <p>An accurate LTV number lets you invest with confidence in acquiring more customers, license more content to address churn, or allows you to lower the price of your service to capture even more customers.</p>
+              <p>In addition, you can use LTV and churn measurements to compare natural segments of your customer base to understand what part of your customer base is healthy and which deserves additional investment. Given the advantages to the predictive model, we are upgrading the Wicket Scorecard to base all LTV values on these retention curves. In future posts, we’ll discuss the implications on specific Wickets.</p>
+            </section>
           </section>
-                            <div class="et_pb_row et_pb_row_1">
-                              <div class="et_pb_column et_pb_column_4_4 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                                <div class="et_pb_with_border et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
-                                  <div class="et_pb_text_inner">
-                                    <h4 id="footnote">Footnotes</h4>
-                                    <ol>
-                                      <li>
-                                        A great starting point is their 2007 publication,
-                                        <a href="https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/Fader_hardie_jim_07.pdf" target="_blank" rel="noopener noreferrer" name="1">
-                                          <em>How To Project Customer Retention</em>
-                                        </a>
-                                      </li>
-                                    </ol>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  
+          <section class="bcls-section">
+            <h2 id="footnote">Footnotes</h2>
+            <ol>
+              <li>
+                A great starting point is their 2007 publication,
+                <a href="https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/Fader_hardie_jim_07.pdf" target="_blank" rel="noopener noreferrer" name="1">
+                  <em>How To Project Customer Retention</em>
+                </a>
+              </li>
+            </ol>
+          </section>
                 </article>
