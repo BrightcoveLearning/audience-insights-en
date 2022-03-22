@@ -25,12 +25,17 @@
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/acquisition/how_to_find_more_happy_customers_with_fa.html",
+      "oldURL": "/how_to_find_more_happy_customers_with_fa"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/icons.html",
       "oldURL": "/icons"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/",
+      "newURL": "https://audience-insights.support.brightcove.com/",
       "oldURL": "/index"
   },
 
@@ -45,13 +50,18 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/",
+      "newURL": "https://audience-insights.support.brightcove.com/guides/",
       "oldURL": "/index"
   },
 
   {
       "newURL": "https://audience-insights.support.brightcove.com/index_for_launch.html",
       "oldURL": "/index_for_launch"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/integration/integration_spotlight_evergent.html",
+      "oldURL": "/integration_spotlight_evergent"
   },
 
   {
