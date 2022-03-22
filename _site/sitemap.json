@@ -35,6 +35,11 @@
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/guides/",
+      "oldURL": "/index"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/",
       "oldURL": "/index"
   },
@@ -50,11 +55,6 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/",
-      "oldURL": "/index"
-  },
-
-  {
       "newURL": "https://audience-insights.support.brightcove.com/index_for_launch.html",
       "oldURL": "/index_for_launch"
   },
@@ -62,6 +62,11 @@
   {
       "newURL": "https://audience-insights.support.brightcove.com/integration/integration_spotlight_evergent.html",
       "oldURL": "/integration_spotlight_evergent"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/integration/integration_spotlight_hubspot.html",
+      "oldURL": "/integration_spotlight_hubspot"
   },
 
   {
