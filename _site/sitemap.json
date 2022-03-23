@@ -30,17 +30,22 @@
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/acquisition/how_to_find_more_happy_customers_with_go.html",
+      "oldURL": "/how_to_find_more_happy_customers_with_go"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/icons.html",
       "oldURL": "/icons"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/",
+      "newURL": "https://audience-insights.support.brightcove.com/support/",
       "oldURL": "/index"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/",
+      "newURL": "https://audience-insights.support.brightcove.com/guides/",
       "oldURL": "/index"
   },
 
@@ -50,7 +55,7 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/support/",
+      "newURL": "https://audience-insights.support.brightcove.com/",
       "oldURL": "/index"
   },
 
