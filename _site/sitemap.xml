@@ -67,12 +67,21 @@
       
         <url>
           
-            <loc>https://audience-insights.support.brightcove.com/guides/summary/customer-summary.html</loc>
+            <loc>https://audience-insights.support.brightcove.com/use-cases/index.html</loc>
           
             <lastmod>2022-03-23</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
         </url>
+        
+          <url>
+            
+              <loc>https://audience-insights.support.brightcove.com/use-cases/acquisition/how_to_find_more_happy_customers_with_fa.html</loc>
+            
+            <lastmod>2022-03-23</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
         
       
     

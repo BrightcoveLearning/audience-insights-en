@@ -19,8 +19,11 @@
   name: 'Use Cases'
   url: '/use-cases/index.html'
   docs:
-    - name: 'Customer Summary'
-      url: '/guides/summary/customer-summary.html'
+    - name: "Acquisition"
+      url: '/use-cases/index.html'
+      docs:
+        - name: 'Find Happy Customers with Facebook'
+          url: '/use-cases/acquisition/how_to_find_more_happy_customers_with_fa.html'
     
 - section: 
   name: 'Support'
