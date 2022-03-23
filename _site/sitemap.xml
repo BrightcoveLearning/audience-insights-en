@@ -67,7 +67,7 @@
       
         <url>
           
-            <loc>https://audience-insights.support.brightcove.com/use-cases/acquisition/index.html</loc>
+            <loc>https://audience-insights.support.brightcove.com/use-cases/index.html</loc>
           
             <lastmod>2022-03-23</lastmod>
             <changefreq>daily</changefreq>
@@ -104,6 +104,34 @@
           <url>
             
               <loc>https://audience-insights.support.brightcove.com/use-cases/acquisition/running_better_campaigns_using_initial_v.html</loc>
+            
+            <lastmod>2022-03-23</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+      
+        <url>
+          
+            <loc>https://audience-insights.support.brightcove.com/use-cases/index.html</loc>
+          
+            <lastmod>2022-03-23</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+          <url>
+            
+              <loc>https://audience-insights.support.brightcove.com/use-cases/retention/promoting_upgrades_to_annual_plans.html</loc>
+            
+            <lastmod>2022-03-23</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+          <url>
+            
+              <loc>https://audience-insights.support.brightcove.com/use-cases/retention/using_genre_to_match_viewers_with_content.html</loc>
             
             <lastmod>2022-03-23</lastmod>
             <changefreq>daily</changefreq>
