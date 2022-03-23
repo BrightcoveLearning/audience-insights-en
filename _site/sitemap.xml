@@ -139,6 +139,61 @@
           </url>
         
       
+        <url>
+          
+            <loc>https://audience-insights.support.brightcove.com/use-cases/index.html</loc>
+          
+            <lastmod>2022-03-23</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+        </url>
+        
+          <url>
+            
+              <loc>https://audience-insights.support.brightcove.com/use-cases/win-back/exclusive_content_alerts.html</loc>
+            
+            <lastmod>2022-03-23</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+          <url>
+            
+              <loc>https://audience-insights.support.brightcove.com/use-cases/win-back/how_to_win_back_lost_subscribers.html</loc>
+            
+            <lastmod>2022-03-23</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+          <url>
+            
+              <loc>https://audience-insights.support.brightcove.com/use-cases/win-back/new_app_or_device_based_on_their_primary.html</loc>
+            
+            <lastmod>2022-03-23</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+          <url>
+            
+              <loc>https://audience-insights.support.brightcove.com/use-cases/win-back/new_content_based_on_past_viewing.html</loc>
+            
+            <lastmod>2022-03-23</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+          <url>
+            
+              <loc>https://audience-insights.support.brightcove.com/use-cases/win-back/price_change_awareness_offers.html</loc>
+            
+            <lastmod>2022-03-23</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+        
+      
     
       <url>
         <loc>https://audience-insights.support.brightcove.com/support/</loc>

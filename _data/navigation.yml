@@ -37,6 +37,19 @@
           url: '/use-cases/retention/promoting_upgrades_to_annual_plans.html'
         - name: 'Using Genre to Match Content'
           url: '/use-cases/retention/using_genre_to_match_viewers_with_content.html'
+    - name: "Win-back"
+      url: '/use-cases/index.html'
+      docs:
+        - name: 'Exclusive Content Alerts'
+          url: '/use-cases/win-back/exclusive_content_alerts.html'
+        - name: 'Win-back Lost Subscribers'
+          url: '/use-cases/win-back/how_to_win_back_lost_subscribers.html'
+        - name: 'Primary Viewing Device'
+          url: '/use-cases/win-back/new_app_or_device_based_on_their_primary.html'
+        - name: 'Content Based on Viewing'
+          url: '/use-cases/win-back/new_content_based_on_past_viewing.html'
+        - name: 'Price Change Awareness'
+          url: '/use-cases/win-back/price_change_awareness_offers.html'    
     
 - section: 
   name: 'Support'
