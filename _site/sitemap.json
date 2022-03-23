@@ -45,17 +45,17 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/support/",
-      "oldURL": "/index"
-  },
-
-  {
       "newURL": "https://audience-insights.support.brightcove.com/guides/",
       "oldURL": "/index"
   },
 
   {
       "newURL": "https://audience-insights.support.brightcove.com/getting-started/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/support/",
       "oldURL": "/index"
   },
 
@@ -102,6 +102,11 @@
   {
       "newURL": "https://audience-insights.support.brightcove.com/getting-started/overview-audience-insights.html",
       "oldURL": "/overview-audience-insights"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/retention/promoting_upgrades_to_annual_plans.html",
+      "oldURL": "/promoting_upgrades_to_annual_plans"
   },
 
   {
