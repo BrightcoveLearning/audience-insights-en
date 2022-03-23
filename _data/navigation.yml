@@ -16,6 +16,13 @@
     - name: 'Lost Customers'
       url: '/guides/lost-customers/lost-customers.html'
 - section: 
+  name: 'Use Cases'
+  url: '/use-cases/index.html'
+  docs:
+    - name: 'Customer Summary'
+      url: '/guides/summary/customer-summary.html'
+    
+- section: 
   name: 'Support'
   url: '/support/'
   docs:
