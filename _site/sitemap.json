@@ -60,12 +60,7 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/getting-started/",
+      "newURL": "https://audience-insights.support.brightcove.com/",
       "oldURL": "/index"
   },
 
@@ -75,7 +70,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/",
+      "newURL": "https://audience-insights.support.brightcove.com/guides/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/getting-started/",
       "oldURL": "/index"
   },
 
@@ -132,6 +132,11 @@
   {
       "newURL": "https://audience-insights.support.brightcove.com/getting-started/overview-audience-insights.html",
       "oldURL": "/overview-audience-insights"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/win-back/price_change_awareness_offers.html",
+      "oldURL": "/price_change_awareness_offers"
   },
 
   {
