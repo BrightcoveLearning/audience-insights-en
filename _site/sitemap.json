@@ -60,17 +60,17 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/use-cases/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/getting-started/",
-      "oldURL": "/index"
-  },
-
-  {
       "newURL": "https://audience-insights.support.brightcove.com/support/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/acquisition/",
       "oldURL": "/index"
   },
 
@@ -80,7 +80,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/",
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/getting-started/",
       "oldURL": "/index"
   },
 

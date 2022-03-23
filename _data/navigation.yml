@@ -20,10 +20,16 @@
   url: '/use-cases/index.html'
   docs:
     - name: "Acquisition"
-      url: '/use-cases/index.html'
+      url: '/use-cases/acquisition/index.html'
       docs:
-        - name: 'Find Happy Customers with Facebook'
+        - name: 'Find Customers with Facebook'
           url: '/use-cases/acquisition/how_to_find_more_happy_customers_with_fa.html'
+        - name: 'Find Customers with Google Ads'
+          url: '/use-cases/acquisition/how_to_find_more_happy_customers_with_go.html'
+        - name: 'Find Customers with Twitter'
+          url: '/use-cases/acquisition/how_to_find_more_happy_customers_with_tw.html'
+        - name: 'Running Better Campaigns'
+          url: '/use-cases/acquisition/running_better_campaigns_using_initial_v.html'
     
 - section: 
   name: 'Support'
