@@ -15,6 +15,14 @@
       url: '/guides/summary/customer-summary.html'
     - name: 'Lost Customers'
       url: '/guides/lost-customers/lost-customers.html'
+- section:
+  name: 'General Information'
+  url: '/general/index.html'
+  docs:
+    - name: 'Calculating Lifetime Value in a SVoD Business'
+      url: /general/calculating-lifetime-value-in-a-svod-bus.html
+    - name: 'Brightcove Audience Insights and Data Security'
+      url: /general/audience-insights-data-security.html
 - section: 
   name: 'Use Cases'
   url: '/use-cases/index.html'

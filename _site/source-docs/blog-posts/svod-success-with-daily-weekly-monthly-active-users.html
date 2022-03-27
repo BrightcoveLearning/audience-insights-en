@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta name="robots" content="noindex,nofollow"> 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Audience data insights help you predict how your business will perform and invest in it with confidence">
+  <meta name="description" content="Don’t try to be all things to all people. Daily usage isn’t the only path to viability for SVoD services. Success can still be found with an audience that engages on a weekly and even monthly basis.">
   
-  <title>Calculating Lifetime Value in a SVoD Business</title>
+  <title>Svod Success With Daily, Weekly, & Monthly Active Users</title>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -62,9 +62,9 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
       
       
       
-      <li class="breadcrumb-item"><a href="/general/">General Information</a></li>
+      <li class="breadcrumb-item"><a href="/source-docs/blog-posts/">Blog</a></li>
       
-      <li class="breadcrumb-item active" aria-current="page">Calculating Lifetime Value in a SVoD Business</li>
+      <li class="breadcrumb-item active" aria-current="page">Svod Success With Daily, Weekly, & Monthly Active Users</li>
     </ol>
   </nav>
 </header>
@@ -174,6 +174,21 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
                 
                   
                     <li><a href="/guides/lost-customers/lost-customers.html">Lost Customers</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/general/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;General Information</a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/general/calculating-lifetime-value-in-a-svod-bus.html">Calculating Lifetime Value in a SVoD Business</a></li>
+                  
+                
+                  
+                    <li><a href="/general/audience-insights-data-security.html">Brightcove Audience Insights and Data Security</a></li>
                   
                 
               </ul>
@@ -308,241 +323,42 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
     
 
 
-    <h1>Calculating Lifetime Value in a SVoD Business</h1>
-        <article class="bcls-article">
-          <section class="bcls-section">
-            <h2 id="invest_with_confidence_in_your_svo_d_business">Invest with Confidence in Your SVoD Business</h2>
-            <p>How much revenue do you think you will receive from your next customer? How long will they stay in the service and what discounts matter to ensure a long-term customer relationship? Is that exclusive content license only driving short-term subscribers or is it a gateway to a new happy customer?</p>
-            <p>
-              Each of these questions relies on understanding the lifetime value (LTV) of a customer and using that value to compare natural segments of your users to find veins of satisfied (and long-subscribing) customers. I’m going to cover each of these questions across three blog posts, diving into the methods to calculate the LTV and some of the pitfalls we watch out for in the
-              <a href="https://www.wicketlabs.com/wicket-scorecard/">Wicket Scorecard</a>.
-            </p>
-            <p>Let’s start with what seems like a simple question: “How much do you think you’ll be paid by your next customer?” Will they stay for a few months, then quit? Or, will they join the ranks of your multi-year subscribers? It’s obvious how important this question is — how else would you know whether spending $30 or $60 to acquire a new customer is worthwhile? Understanding the LTV for a specific new customer is very hard, but understanding the LTV of a group of new users shouldn’t be too difficult, right?</p>
-          </section>
-          <section class="bcls-section">
-            <h2 id="calculating_subscriber_ltv">Calculating Subscriber LTV</h2>
-            <p>Let’s take the example of PolarFlix, a site for Arctic enthusiasts. They charge $10 per month and have a fairly high monthly churn rate of 20%.</p>
-            <p>
-              One of the most common ways to measure the lifetime value of a customer is using the churn rate and your average revenue per user (ARPU). We can simply combine those two values to a group of users and, on average, it should reflect the LTV of our average new customer. The formula looks like
-              <strong>ARPU/Monthly Churn</strong>
-              . For PolarFlix, this is 10/.2 = $50
-            </p>
-            <p>
-              Let’s play this out a bit. If you imagine that PolarFlix adds 100 customers on December 1st, we would expect this cohort to accrue payments to PolarFlix each month. Here’s a table showing how this “Monthly Churn Model” behaves. (
-              <em>Note, the actual formula is totally okay with partial customers, because statistics, but I rounded these examples.</em>
-              )
-            </p>
-            <table class="bcls-table">
-              <thead class="bcls-table__head">
-                <tr>
-                  <th>Date</th>
-                  <th>Current</th>
-                  <th>Lost</th>
-                  <th>Revenue</th>
-                  <th>LTV</th>
-                </tr>
-              </thead>
-              <tbody class="bcls-table__body">
-                <tr>
-                  <td>12/1/2018</td>
-                  <td>100</td>
-                  <td>&nbsp;</td>
-                  <td>$1,000</td>
-                  <td>$10.00</td>
-                </tr>
-                <tr>
-                  <td>1/1/2019</td>
-                  <td>80</td>
-                  <td>20</td>
-                  <td>$1,800</td>
-                  <td>$18.00</td>
-                </tr>
-                <tr>
-                  <td>2/1/2019</td>
-                  <td>64</td>
-                  <td>16</td>
-                  <td>$2,440</td>
-                  <td>$24.40</td>
-                </tr>
-                <tr>
-                  <td>3/1/2019</td>
-                  <td>51</td>
-                  <td>13</td>
-                  <td>$2,950</td>
-                  <td>$29.50</td>
-                </tr>
-                <tr>
-                  <td>4/1/2019</td>
-                  <td>41</td>
-                  <td>10</td>
-                  <td>$3,360</td>
-                  <td>$33.60</td>
-                </tr>
-                <tr>
-                  <td>5/1/2019</td>
-                  <td>33</td>
-                  <td>8</td>
-                  <td>$3,690</td>
-                  <td>$36.90</td>
-                </tr>
-                <tr>
-                  <td>6/1/2019</td>
-                  <td>26</td>
-                  <td>7</td>
-                  <td>$3,950</td>
-                  <td>$39.50</td>
-                </tr>
-                <tr>
-                  <td>7/1/2019</td>
-                  <td>21</td>
-                  <td>5</td>
-                  <td>$4,160</td>
-                  <td>$41.60</td>
-                </tr>
-                <tr>
-                  <td>8/1/2019</td>
-                  <td>17</td>
-                  <td>4</td>
-                  <td>$4,330</td>
-                  <td>$43.30</td>
-                </tr>
-                <tr>
-                  <td>9/1/2019</td>
-                  <td>14</td>
-                  <td>3</td>
-                  <td>$4,470</td>
-                  <td>$44.70</td>
-                </tr>
-                <tr>
-                  <td>10/1/2019</td>
-                  <td>11</td>
-                  <td>3</td>
-                  <td>$4,580</td>
-                  <td>$45.80</td>
-                </tr>
-                <tr>
-                  <td>11/1/2019</td>
-                  <td>9</td>
-                  <td>2</td>
-                  <td>$4,670</td>
-                  <td>$46.70</td>
-                </tr>
-                <tr>
-                  <td>12/1/2019</td>
-                  <td>7</td>
-                  <td>2</td>
-                  <td>$4,740</td>
-                  <td>$47.40</td>
-                </tr>
-                <tr>
-                  <td>1/1/2020</td>
-                  <td>6</td>
-                  <td>1</td>
-                  <td>$4,800</td>
-                  <td>$48.00</td>
-                </tr>
-                <tr>
-                  <td>2/1/2020</td>
-                  <td>5</td>
-                  <td>1</td>
-                  <td>$4,850</td>
-                  <td>$48.50</td>
-                </tr>
-                <tr>
-                  <td>3/1/2020</td>
-                  <td>4</td>
-                  <td>1</td>
-                  <td>$4,890</td>
-                  <td>$48.90</td>
-                </tr>
-                <tr>
-                  <td>4/1/2020</td>
-                  <td>3</td>
-                  <td>1</td>
-                  <td>$4,920</td>
-                  <td>$49.20</td>
-                </tr>
-                <tr>
-                  <td>5/1/2020</td>
-                  <td>2</td>
-                  <td>1</td>
-                  <td>$4,940</td>
-                  <td>$49.40</td>
-                </tr>
-                <tr>
-                  <td>6/1/2020</td>
-                  <td>2</td>
-                  <td>0</td>
-                  <td>$4,960</td>
-                  <td>$49.60</td>
-                </tr>
-                <tr>
-                  <td>7/1/2020</td>
-                  <td>1</td>
-                  <td>1</td>
-                  <td>$4,970</td>
-                  <td>$49.70</td>
-                </tr>
-                <tr>
-                  <td>8/1/2020</td>
-                  <td>1</td>
-                  <td>0</td>
-                  <td>$4,980</td>
-                  <td>$49.80</td>
-                </tr>
-                <tr>
-                  <td>9/1/2020</td>
-                  <td>1</td>
-                  <td>0</td>
-                  <td>$4,990</td>
-                  <td>$49.90</td>
-                </tr>
-                <tr>
-                  <td>10/1/2020</td>
-                  <td>1</td>
-                  <td>1</td>
-                  <td>$5,000</td>
-                  <td>$50.00</td>
-                </tr>
-              </tbody>
-            </table>
-            <figure class="bcls-figure">
-              <img loading="lazy" aria-describedby="caption-attachment-27551" class="wp-image-27551 size-large" src="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/ltv-calc-1-1024x701.png" alt="chart of payments and lifetime value" width="1024" height="701" srcset="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/ltv-calc-1-1024x701.png 1024w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/ltv-calc-1-300x205.png 300w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/ltv-calc-1-768x526.png 768w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/ltv-calc-1-1080x740.png 1080w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/ltv-calc-1.png 1453w" sizes="(max-width: 1024px) 100vw, 1024px">
-              <figcaption class="bcls-caption--image">Payments and Lifetime Value</figcaption>
-            </figure>
-            <p>Dandy, right? We receive $50 per customer, so now I can allocate some of that to marketing, operations, and content licensing and keep the rest as our profit.</p>
-            <p>Well, sure, but if you actually did this, you would be underinvesting in your business. Because, in subscription-based businesses, the retention rate doesn’t actually follow average churn. Instead, what we see at Wicket Labs is that your new customers churn at a very high rate, often as much as 30-40% monthly churn over the first few billing cycles, while more tenured subscribers churn at a rate in the single digits.</p>
-            
-            <div id="attachment_27553" style="width: 1034px" class="wp-caption alignnone">
-              <img aria-describedby="caption-attachment-27553" loading="lazy" class="wp-image-27553 size-large" src="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/ltv-calc-2-1024x700.png" alt="chart of payments and lifetime value" width="1024" height="700" srcset="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/ltv-calc-2-1024x700.png 1024w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/ltv-calc-2-300x205.png 300w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/ltv-calc-2-768x525.png 768w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/ltv-calc-2-1080x739.png 1080w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/ltv-calc-2.png 1455w" sizes="(max-width: 1024px) 100vw, 1024px">
-              <p id="caption-attachment-27553" class="wp-caption-text">Fig. 2</p>
-            </div>
-            
-            <p>However, the actual customer loss curve for our example company, PolarFlix, shows the LTV for this cohort of customers is $66 on October 1, 2020, with over ten customers still active. For a service with 100,000 subscribers, that’s a $1.6 million difference.</p>
-            <p>
-              So, how do we make our formulas match our observed lifetime spending? We looked to academic marketing literature for the answer and find some great work that has been done by Peter Fader and Bruce Hardie. We’ve relied heavily on their work on CLV in contractual (i.e. renewing subscription) businesses.<sup class="footnote"> [ <a href="#1">1</a> ] </sup> Conceptually, this is pretty simple. We use historical data about our customers and create a retention curve. A retention curve shows the probability, as a value from 0 to 1, that a customer with a tenure of n days, will become a customer of tenure n+1 days. From that, it’s simple to show how much revenue we expect to receive. Mathematically, it’s more complicated, but that’s why we have computers!
-            </p>
-            <p>With the Fader and Hardie method, we can even predict the curve beyond the longest tenure of our customers, something that Kaplan-Meier, a very common survival analysis method cannot do. There is an important caveat to this method, though! As you can see in the chart above, the curve may only reach 0 many, many years in the future. You have to choose some cutoff date for valuing these customers. Given the pace of change in our business, it’s safe to say your service isn’t going to be the same in 2038!</p>
-            <p>At Wicket Labs, we looked at the actual retention curves of our customers and choose to estimate LTV through 1,000 days of subscription. This allows 2 cycles of churn for annual subscriptions and, for typical churn rates, captures enough of the extra value from the long-tenured subscribers to make a material difference in the LTV.</p>
-            <section class="bcls-section">
-              <h2 id="an_accurate_ltv_enables_better_investment">An accurate LTV enables better investment</h2>
-              <p>Now that you know a more accurate picture of your next customer’s payments, what will you do with this information?</p>
-              <p>An accurate LTV number lets you invest with confidence in acquiring more customers, license more content to address churn, or allows you to lower the price of your service to capture even more customers.</p>
-              <p>In addition, you can use LTV and churn measurements to compare natural segments of your customer base to understand what part of your customer base is healthy and which deserves additional investment. Given the advantages to the predictive model, we are upgrading the Wicket Scorecard to base all LTV values on these retention curves. In future posts, we’ll discuss the implications on specific Wickets.</p>
-            </section>
-          </section>
-          <section class="bcls-section">
-            <h2 id="footnote">Footnotes</h2>
-            <ol>
-              <li>
-                A great starting point is their 2007 publication,
-                <a href="https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/Fader_hardie_jim_07.pdf" target="_blank" rel="noopener noreferrer" name="1">
-                  <em>How To Project Customer Retention</em>
-                </a>
-              </li>
-            </ol>
-          </section>
-                </article>
+<h1>Svod Success With Daily, Weekly, & Monthly Active Users</h1>
+<article class="bcls-article">
+  <summary>Don’t try to be all things to all people. Daily usage isn’t the only path to viability for SVoD services. Success can still be found with an audience that engages on a weekly and even monthly basis.</summary>
+  <p class="intro">One of the main questions in running an SVOD business is how often are subscribers returning to watch content? Are they coming back daily, weekly, or monthly? What <em>is</em> the optimal frequency of return visits to keep customers subscribed for the long term? The easy answer is, it depends.</p>
+  <blockquote class="et-pullquote left"><p>What <em>is</em> the optimal frequency of return visits to keep customers subscribed for the long term? The easy answer is, it depends.</p></blockquote>
+  <p>In the continuing saga of the Streaming Wars, several companies are building massive content catalogs, spanning genres and categories to reach broad appeal as consumers look to cut the cord from traditional broadcast services. In an effort to become the daily destination for consumers, large services such as Netflix, Hulu, Amazon, etc., invest heavily in licensing and producing original content to increase their appeal and reinforce their value proposition.</p>
+  <p>Their strategy appears to be working but there also appears to be room in the household budgets for a variety of streaming services. A recent study by Parks Associates shows that <a href="https://www.rapidtvnews.com/2020060858615/76-of-us-broadband-homes-had-ott-subs-in-q1-2020.html#axzz6OtP2dKSg">76% of US households have at least one video streaming service</a> and multiple subscriptions is now the norm with the <a href="https://nscreenmedia.com/nscreen-whitepapers/nScreen-nSights-OVS-consumer-attitudes-final.pdf">average subscriber having 3.4 services</a> and paying $8.53 per service through a variety of distribution channels, according to a separate survey by nScreenMedia. That said, not every service is, or should be, designed to be the daily destination to be a successful option for consumers.</p>
+  <h2>Don’t Try to Be All Things to All People</h2>
+  <p>Many OTT services are able to attract loyal subscribers that visit a limited number of times per week by providing fresh content with a very broad appeal. Either new movies for “family night” viewing or a couple of new episodes of a popular show to which they may have exclusive access. These services can compete by providing a deeper catalog of older shows and movies that are less expensive to license but have a broad appeal. Less top-level titles but a deeper bench of “role players.” The challenge in this type of service is keeping users engaged when the season ends or top tier content is running thin.</p>
+  <p>In addition, there are services that have a great deal of success where users check in once or twice a month. Their content usually has a general appeal but is more focused on a particular topic or genre. With less emphasis on a broad content offering, users tend to be considered more of a <a href="https://www.wicketlabs.com/wicket-blog/from-subscription-membership/">member of a group</a>, rather than just a subscriber to a service, creating a more tailored experience.</p>
+  <p>Regardless of the type of service being run, your goal is to keep your users coming back at the appropriate frequency to deliver on your value proposition. We have all heard the expression content is king, as it applies to managing subscription services. That is true, but as we have discussed, it is not the only reason for success in finding and retaining subscribers.</p>
+  <p>No matter the type of service you are running, the <a href="https://www.wicketlabs.com/wicket-blog/5-main-reasons-subscribers-churn-and-what-to-do-about-it/">reasons for churn</a> are very similar. To better combat churn we should quickly look at the main reasons people cancel subscription services. The main reasons cited for leaving a service are typically price, experience, content availability to some degree. But let’s break those reasons down a little bit, as they are oftentimes interrelated.</p>
+  <p>Price is less of a factor in deciding to leave a service. Sure individual realities change and users have to cut back when times are hard…<em>but</em> price is generally a reflection that the user does not perceive they are getting enough value for the cost of their subscription. This can really be about the experience of the service:</p>
+  <ul>
+  <li>Do I have access to enough content?</li>
+  <li>Can I find content easily?</li>
+  <li>Are the apps easy to navigate?</li>
+  <li>Can I access content from multiple devices?</li>
+  <li>Many times the decision is about the price of the service (I knew that going in) but does the perceived value I am getting meet the price of the service?</li>
+  </ul>
+  <blockquote class="et-pullquote right"><p>“I’m getting the content I want, as well as discovering new content while I watch the shows I like.”</p></blockquote>
+  <p>If you’re relying on subscribers to come back at least a couple of times per week, make sure content discovery is as seamless as possible. You want subscribers to think, “I’m getting the content I want, as well as discovering new content while I watch the shows I like.” If subscribers are coming back too frequently, they will consume lots of content hours, so guiding them to the next movie and show becomes increasingly important to deliver on that value proposition. Two key data points in delivering on the frequency of engagement to look at are current and past viewing behavior. These help identify early on when a subscriber shows signs of waning and can allow you to make good recommendations to quickly bring them back.<br>
+  The <a href="https://www.wicketlabs.com/wicket-scorecard/">Wicket Scorecard</a> can be a great tool to identify these users and make the right suggestions to keep them engaged and coming back.</p>
+  <h2>Identifying Where Users are in Their Viewing Habits</h2>
+  <p>The <a href="https://www.wicketlabs.com/wicket-blog/redefining-engagement-for-ott-video-services/">Engagement Status Over Time Wicket</a> (Fig. 1) is invaluable for making this determination. Each user is assigned an <b>Engagement Status</b> based on their most recent viewing pattern. Are they engaged? (coming back recently and frequently) Have they stopped coming back recently or weeks ago? Customize your messaging based on this status and look at recent consumption to target them at the right time with the right content options.</p>
+  <div id="attachment_33071" style="width: 1010px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-33071" class="wp-image-33071 size-full" src="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/05/engagement-status-over-time.png" alt="chart of Engagement Status Over Time" width="1000" height="477" srcset="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/05/engagement-status-over-time.png 1000w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/05/engagement-status-over-time-980x467.png 980w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/05/engagement-status-over-time-480x229.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) 1000px, 100vw"><p id="caption-attachment-33071" class="wp-caption-text">Fig. 1 – Chart of Engagement Status Over Time</p></div>
+  <p>When the current season of a popular show ends, we often see people start to drift away from a service because they don’t know what to watch next. Identifying this early (within the first couple weeks) is crucial to keeping that customer coming back on a weekly basis before they become idle and decide to cancel their subscription. Identify these subs quickly and leverage the Content Explorer to make the right suggestions in a timely manner to help discover that next show or movie.</p>
+  
+  <p></p><div id="attachment_34014" style="width: 810px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-34014" class="wp-image-34014" src="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/06/content-explorer-1024x423.png" alt="Content Explorer" width="800" height="330"><p id="caption-attachment-34014" class="wp-caption-text">Fig. 2 – Find out how audiences crossover with Content Explorer</p></div></div>
+  </div><div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
+  <div class="et_pb_text_inner"><div id="attachment_34207" style="width: 588px" class="wp-caption alignnone"><img onload="Wpfcllaria-describedby="caption-attachment-34207" class="wp-image-34207 size-full" data-wpfc-original-src="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/07/content-explorer-sort.png" alt="content explorer sort" width="578" height="166" data-wpfc-original-srcset="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/07/content-explorer-sort.png 578w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/07/content-explorer-sort-480x138.png 480w" data-wpfc-original-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 578px, 100vw"><p id="caption-attachment-34207" class="wp-caption-text">Fig. 3 – Preset filters allow you to find Hidden Gems, Promotable Shows, and Dynamic Duos in your content catalog</p></div></div>
+  </div><div class="et_pb_module et_pb_text et_pb_text_2  et_pb_text_align_left et_pb_bg_layout_light">
+  <div class="et_pb_text_inner"><p>Content Explorer easily identifies which content to promote to your users based on the shows they have been watching by finding key correlations to other shows in your catalog and the consumption behavior of subscribers. Combined with the <a href="https://www.wicketlabs.com/wicket-blog/understanding-content-through-lens-your-customer/">Attention Index</a>, it allows you to uplevel your suggestions from “people who watched this also watched this”….to “people that watched and liked this also watched and liked these shows.” Pre-set filters allow you to find the <b>Hidden Gems</b>, <b>Promotable Shows,</b> and <b>Dynamic Duos</b>&nbsp;(Fig. 3) in your catalog, introducing the right suggestion to subscribers at the right time.</p>
+  <p>By leveraging these tools, you can suggest the content to subscribers they are looking for, on the devices they use, in a timely fashion that ensures a great customer experience and reinforces the value of your service. Get the most out of your content catalog and deliver on your promise regardless of the type of service you are running.</p>
+</article>
+
 
 <!-- complete bootstrap layout -->
     </div>
@@ -559,7 +375,7 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
 
 <hr>
 <div class="last-updated">
-  Page last updated on 21 Mar 2022
+  Page last updated on 25 Mar 2022
 </div>
 
 
