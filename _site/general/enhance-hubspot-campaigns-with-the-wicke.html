@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex,nofollow"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="We recently announced the addition of Subscriber Export functionality to the Wicket Scorecard, which makes it possible to manage subscribers of video services for use in marketing systems highly contextual and easy to do. The intention of these action-oriented exports is to drive value and ROI for our customers by allowing for a quick method to acquire more lookalike customers, reduce customer acquisition cost (CAC), re-engage at-risk customers, win back lost customers, and reduce overall operating costs.">
+  
+  <title>Enhance HubSpot Campaigns with the Wicket Scorecard</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/prism.css">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/styles.css">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/landing-page.css">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/tabs.css">
+  <link rel="stylesheet" href="/assets/css/local.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2728311-17"></script>
+<script translate="no">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-2728311-17');
+</script>
+  <script src="/assets/js/sajari-head.js"></script>
+	<script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+
+<body class="body">
+
+<header">
+  <div class="div-header">
+    <a href="/"><img class="product-logo" src="https://support.brightcove.com/site-assets/images/site/product-logos/SVG/AudienceInsights_H_RGB_K.svg" alt="Brightcove"></a>
+<!-- GTranslate: https://gtranslate.io/ -->
+<select onchange="doGTranslate(this);"><option value=">Select Language</option><option value="en|en" translate="No">English</option><option value="en|zh-TW" translate="No">繁體中文</option><option value="en|fr" translate="No">Français</option><option value="en|de" translate="No">Deutsche</option><option value="en|ja" translate="No">日本語</option><option value="en|ko" translate="No">한국어</option><option value="en|es" translate="No">Español</option></select>
+
+<script translate="no">
+/* <![CDATA[ */
+function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.hostname.split('.')[0];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='en';location.href=location.protocol+'//'+(lang == 'en' ? '' : lang+'.')+location.hostname.replace('www.', '').replace(RegExp('^' + plang + '\\.'), '')+location.pathname+location.search;}
+/* ]]> */
+</script>
+
+
+
+&nbsp;<span class="secondary-nav"><a href="https://support.brightcove.com/product-updates.html">Product Updates</a> <span style="vertical-align: middle;margin-left:1em;margin-right:1em;">|</span> <a href="https://supportportal.brightcove.com">Contact Support</a> <span style="vertical-align: middle;margin-left:1em;margin-right:1em;">|</span> <a href="https://status.brightcove.com/">System Status</a></span>
+    <br>
+    
+  </div>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb arr-right">
+      
+      <li class="breadcrumb-item first-item"><a href="/">Home</a></li>
+      
+      
+      
+      <li class="breadcrumb-item"><a href="/general/">General Information</a></li>
+      
+      <li class="breadcrumb-item active" aria-current="page">Enhance HubSpot Campaigns with the Wicket Scorecard</li>
+    </ol>
+  </nav>
+</header>
+<div class="container">
+    <div class="row">
+      <div class="col-sm-3 left-side-bar">
+				<select id="site_select" class="bcls-select" style="margin-left: 1rem;">
+					<option value="">Other Brightcove Docs</option>
+					
+						
+							<option value="https://support.brightcove.com">Documentation Home</option>
+						
+					
+						
+							<option value="">-- VIDEO CLOUD --</option>
+						
+					
+						
+							<option value="https://studio.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Studio</option>
+						
+					
+						
+							<option value="https://player.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Player Development</option>
+						
+					
+						
+							<option value="https://apis.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Platform APIs</option>
+						
+					
+						
+							<option value="https://sdks.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Device SDKs</option>
+						
+					
+						
+							<option value="https://integrations.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Integrations and CMS Connectors</option>
+						
+					
+						
+							<option value="https://general.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud General Information</option>
+						
+					
+						
+							<option value="">-- VIDEO ESSENTIALS --</option>
+						
+					
+						
+							<option value="https://beacon.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Beacon</option>
+						
+					
+						
+							<option value="https://live.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Live</option>
+						
+					
+						
+							<option value="https://zencoder.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Zencoder</option>
+						
+					
+						
+							<option value="">-- VIDEO CLOUD ADD-ONS --</option>
+						
+					
+						
+							<option value="https://campaign.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Campaign</option>
+						
+					
+						
+							<option value="https://engage.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Engage</option>
+						
+					
+						
+							<option value="https://gallery.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Gallery</option>
+						
+					
+						
+							<option value="https://studio.support.brightcove.com/social/index.html">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Social</option>
+						
+					
+						
+							<option value="https://ssai.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove SSAI</option>
+						
+					
+				</select>
+        <nav class="sidenav" id="side_nav">
+          
+            
+            <h5><a href="/">Home</a></h5>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/getting-started/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;Getting Started</a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/getting-started/overview-audience-insights.html">Overview: Audience Insights</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/guides/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;Guides</a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/guides/summary/customer-summary.html">Customer Summary</a></li>
+                  
+                
+                  
+                    <li><a href="/guides/lost-customers/lost-customers.html">Lost Customers</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/general/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;General Information</a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/general/automating-smarter-campaigns-with-user-s.html">Automating Smarter Campaigns with User Segments</a></li>
+                  
+                
+                  
+                    <li><a href="/general/audience-insights-data-security.html">Brightcove Audience Insights and Data Security</a></li>
+                  
+                
+                  
+                    <li><a href="/general/calculating-lifetime-value-in-a-svod-bus.html">Calculating Lifetime Value in a SVoD Business</a></li>
+                  
+                
+                  
+                    <li><a href="/general/content-as-context-for-better-segmentation.html">Content as Context for Better Segmentation</a></li>
+                  
+                
+                  
+                    <li><a href="/general/introducing-custom-insights.html">Custom Insights</a></li>
+                  
+                
+                  
+                    <li><a href="/general/enhance-hubspot-campaigns-with-the-wicke.html">Enhance HubSpot Campaigns with the Wicket Scorecard</a></li>
+                  
+                
+                  
+                    <li><a href="/general/looking-beyond-views-to-find-entertainme.html">Looking Beyond Views to Find Entertainment Value in OTT Content</a></li>
+                  
+                
+                  
+                    <li><a href="/general/measuring-content-momentum.html">Measuring Content Momentum</a></li>
+                  
+                
+                  
+                    <li><a href="/general/seeing-the-big-picture-of-your-ott-busin.html">Seeing the Big Picture of Your OTT Business</a></li>
+                  
+                
+                  
+                    <li><a href="/general/streamlining-workflow-with-automated-sub.html">Streamlining Workflow with Automated Subscriber Sync</a></li>
+                  
+                
+                  
+                    <li><a href="/general/understanding-content-through-the-lens-o.html">Understanding Content through the Lens of Your Customer Attention Index</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/use-cases/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;Use Cases</a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li class="submenu-header">
+                      <a href="/use-cases/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;Acquisition</a>
+                      <ul class="sidenav-subsubmenu" style="display:none;">
+                        
+                          
+                            <li><a href="/use-cases/acquisition/how_to_find_more_happy_customers_with_fa.html">Find Customers with Facebook</a></li>
+                          
+                        
+                          
+                            <li><a href="/use-cases/acquisition/how_to_find_more_happy_customers_with_go.html">Find Customers with Google Ads</a></li>
+                          
+                        
+                          
+                            <li><a href="/use-cases/acquisition/how_to_find_more_happy_customers_with_tw.html">Find Customers with Twitter</a></li>
+                          
+                        
+                          
+                            <li><a href="/use-cases/acquisition/running_better_campaigns_using_initial_v.html">Running Better Campaigns</a></li>
+                          
+                        
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="submenu-header">
+                      <a href="/use-cases/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;Retention</a>
+                      <ul class="sidenav-subsubmenu" style="display:none;">
+                        
+                          
+                            <li><a href="/use-cases/retention/promoting_upgrades_to_annual_plans.html">Promoting Upgrades</a></li>
+                          
+                        
+                          
+                            <li><a href="/use-cases/retention/using_genre_to_match_viewers_with_content.html">Using Genre to Match Content</a></li>
+                          
+                        
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="submenu-header">
+                      <a href="/use-cases/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;Win-back</a>
+                      <ul class="sidenav-subsubmenu" style="display:none;">
+                        
+                          
+                            <li><a href="/use-cases/win-back/exclusive_content_alerts.html">Exclusive Content Alerts</a></li>
+                          
+                        
+                          
+                            <li><a href="/use-cases/win-back/how_to_win_back_lost_subscribers.html">Win-back Lost Subscribers</a></li>
+                          
+                        
+                          
+                            <li><a href="/use-cases/win-back/new_app_or_device_based_on_their_primary.html">Primary Viewing Device</a></li>
+                          
+                        
+                          
+                            <li><a href="/use-cases/win-back/new_content_based_on_past_viewing.html">Content Based on Viewing</a></li>
+                          
+                        
+                          
+                            <li><a href="/use-cases/win-back/price_change_awareness_offers.html">Price Change Awareness</a></li>
+                          
+                        
+                      </ul>
+                    </li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/support/"><span style="color:#8E9093">+</span>&nbsp;&nbsp;Support</a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/support/known-issues.html">Known Issues</a></li>
+                  
+                
+                  
+                    <li><a href="/support/viewing-brightcove-system-status-page.html">Viewing the Brightcove System Status Page</a></li>
+                  
+                
+                  
+                    <li><a href="/support/contact-sales.html">Contact Sales</a></li>
+                  
+                
+                  
+                    <li><a href="/support/opening-case-with-brightcove-support.html">Opening a Support Case</a></li>
+                  
+                
+                  
+                    <li><a href="/support/reset-support-portal-password.html">Reset Your Support Portal Password</a></li>
+                  
+                
+              </ul>
+            
+          
+      </nav>
+    </div>
+    <div class="col-lg-7" style="background-color: white;color: #333333;margin-top: -1em;margin-bottom: -1em;padding-bottom:1em;">
+  <!-- bootstrap layout -->
+
+<i id="bc_veggie_burger_wrapper" data-feather="menu" style="display: none;"></i>
+
+<!-- search bar -->
+<div id="nav-search-box" style="margin-top: 1rem;"></div>
+<!-- in-page navigation for narrow screens -->
+<details class="centered-inpage-nav" id="centered_inpage_nav">
+  <summary><h6 class="toc">Page Contents</h6></summary>
+  <nav id="centered_toc"></nav>
+  <ul id="centered_in_page_toc" class="list-none"></ul>
+</details>
+<!-- open in new tab/window -->
+<a id="open_new_tab" href="#" target="_blank" style="display: none;"><i data-feather="external-link" alt="open in new tab"></i></a>
+
+
+
+  
+    
+
+
+<h1>Enhance HubSpot Campaigns with the Wicket Scorecard</h1>
+<article class="bcls-article">
+  <summary>We recently announced the addition of <a href="https://www.wicketlabs.com/wicket-blog/turning-insights-into-action-introducing-subscriber-export/">Subscriber Export functionality</a> to the Wicket Scorecard, which makes it possible to manage subscribers of video services for use in marketing systems highly contextual and easy to do. The intention of these action-oriented exports is to drive value and ROI for our customers by allowing for a quick method to acquire more lookalike customers, reduce customer acquisition cost (CAC), re-engage at-risk customers, win back lost customers, and reduce overall operating costs.</summary>
+  <p>Today we’re excited to announce a direct integration with one of the most popular marketing software solutions on the market today: HubSpot. The
+    <a href="https://www.wicketlabs.com/wicket-scorecard/">Wicket Scorecard</a> now has one-touch integration to send your subscriber exports directly into HubSpot’s platform to create an endless number of campaigns to achieve the results you desire.
+  </p>
+  <h2>Wicket Scorecard + HubSpot</h2>
+  <p>With a direct HubSpot integration, not only can video services leverage the power of the harmonized dataset produced from the Wicket Scorecard, you can do it incredibly fast. The improved targeting will give marketing campaigns more bang for their bucks. Setting it up is super-simple and takes less than a minute.</p>
+  <ol>
+    <li>In the Wicket Scorecard, click on the Settings icon (SVG) and click into Settings</li>
+    <li>Select the account the integration should be added to on the left</li>
+    <li>Scroll down to
+      <strong>Publish Integrations</strong> and then click on
+      <em>+ Add Integration</em>
+      (Fig. 1)
+      
+      <p></p>
+      <div id="attachment_27609" style="width: 710px" class="wp-caption alignnone">
+        <img loading="lazy" aria-describedby="caption-attachment-27609" class="wp-image-27609" src="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/publish-integrations-1024x300.png" alt="Add publish integration" width="700" height="239">
+        <p id="caption-attachment-27609" class="wp-caption-text">Fig. 1</p>
+      </div>
+    </li>
+    <li>A modal window will pop up to add a publishing destination. Select HubSpot from the dropdown and click
+      <em>Authorize</em>
+      (Fig. 2)
+      
+      <p></p>
+      <div id="attachment_27605" style="width: 510px" class="wp-caption alignnone">
+        <img aria-describedby="caption-attachment-27605" loading="lazy" class="wp-image-27605" src="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/add-publishing-destination.png" alt="Add HubSpot publish destination" width="500" height="285" srcset="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/add-publishing-destination.png 1000w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/add-publishing-destination-300x171.png 300w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/add-publishing-destination-768x438.png 768w" sizes="(max-width: 500px) 100vw, 500px">
+        <p id="caption-attachment-27605" class="wp-caption-text">Fig. 2</p>
+      </div>
+    </li>
+    <li>You will be redirected to HubSpot and prompted to log in if you are not already signed in&nbsp;(Fig. 3)
+      <br>&nbsp;
+      <div id="attachment_27606" style="width: 460px" class="wp-caption alignnone">
+        <img src="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/hubspot-login-804x1024.png" aria-describedby="caption-attachment-27606" loading="lazy" class="wp-image-27606" alt="HubSpot login" width="450" height="573" srcset="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/hubspot-login-804x1024.png 804w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/hubspot-login-235x300.png 235w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/hubspot-login-768x978.png 768w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/hubspot-login.png 1000w" sizes="(max-width: 450px) 100vw, 450px">
+        <p id="caption-attachment-27606" class="wp-caption-text">Fig. 3</p>
+      </div>
+    </li>
+    <li>After successfully authenticating, you will be redirected to a list of HubSpot accounts. Click the name of the account you wish to link to the Wicket Scorecard</li>
+    <li>
+      After selecting an account, you will be directed back to the settings page, where you will now see the successfully added HubSpot integration (Fig. 4)
+      
+      <p></p>
+      <div id="attachment_27608" style="width: 1010px" class="wp-caption alignnone">
+        <img onload="Wpfcllaria-describedby="caption-attachment-27608" loading="lazy" class="wp-image-27608" data-wpfc-original-src="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/publish-integrations-hubspot-1024x249.png" alt="HubSpot publish integration" width="1000" height="244" data-wpfc-original-srcset="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/publish-integrations-hubspot-1024x249.png 1024w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/publish-integrations-hubspot-300x73.png 300w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/publish-integrations-hubspot-768x187.png 768w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/publish-integrations-hubspot-1080x263.png 1080w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/publish-integrations-hubspot.png 1999w" data-wpfc-original-sizes="(max-width: 1000px) 100vw, 1000px">
+        <p id="caption-attachment-27608" class="wp-caption-text">Fig. 4</p>
+      </div>
+    </li>
+  </ol>
+  <p>Now for the fun part! After your integration has been completed, you can begin to publish your data exports directly into the HubSpot CRM. It’s really simple to do.</p>
+  <ol>
+    <li>Export a report, just how you would normally do so in the Wicket Scorecard</li>
+    <li>Click on the
+      <em>Download</em> icon&nbsp;
+      <a href="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/download.svg">
+        <img onload="Wpfcllclass="alignnone size-full wp-image-27612" role="img" data-wpfc-original-src="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/download.svg" alt="download icon">
+      </a> in the upper right
+    </li>
+    <li>This opens up a list of your available data exports for download</li>
+    <li>As you hover over each available download, a more options icon appears. Click this and choose
+      <em>Publish to HubSpot</em>
+      (Fig. 5)
+      
+      <p></p>
+      <div id="attachment_27607" style="width: 1010px" class="wp-caption alignnone">
+        <img onload="Wpfcllaria-describedby="caption-attachment-27607" loading="lazy" class="wp-image-27607" data-wpfc-original-src="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/publish-hubspot-1024x382.png" alt="Publish to HubSpot" width="1000" height="373" data-wpfc-original-srcset="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/publish-hubspot-1024x382.png 1024w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/publish-hubspot-300x112.png 300w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/publish-hubspot-768x287.png 768w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/publish-hubspot-1080x403.png 1080w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2018/12/publish-hubspot.png 2014w" data-wpfc-original-sizes="(max-width: 1000px) 100vw, 1000px">
+        <p id="caption-attachment-27607" class="wp-caption-text">Fig. 5</p>
+      </div>
+    </li>
+  </ol>
+  <p>That’s it! You’ve now added the included fields into HubSpot’s CRM and may begin using the information for marketing programs.</p>
+</article>
+
+<!-- complete bootstrap layout -->
+    </div>
+    <div class="col-sm-2 right-side-bar">
+      
+      <nav class="right-side-nav" id="right_side_nav">
+        <h6 class="toc">Page Contents</h6>
+        <ul id="in_page_nav" class="list-none"></ul>
+      </nav>
+      
+    </div>
+  </div>
+</div>
+
+<hr>
+<div class="last-updated">
+  Page last updated on 29 Mar 2022
+</div>
+
+
+
+<footer class="bcls-footer" role="contentinfo">
+  <div class="row">
+    <div class="region region-footer-top-center col-md-12">
+      <nav role="navigation" aria-labelledby="block-brightcovesupport-menu" id="block-brightcovesupport" class="footer-menu">
+        <img src="https://support.brightcove.com/site-assets/images/site/SVG/COVE004_Brightcove_Logo_093020_RGB_KO.svg" class="bc-footer-logo" alt="Brightcove">
+
+        <h2>Brightcove Support</h2>
+
+        <ul class="menu">
+          <li>
+            <a href="https://status.brightcove.com">System Status</a>
+          </li>
+          <li>
+            <a href="https://supportportal.brightcove.com">Contact Support</a>
+          </li>
+          <li>
+            <a href="https://support.brightcove.com/">Documentation</a>
+          </li>
+        </ul>
+
+      </nav>
+      <nav role="navigation" aria-labelledby="block-training-menu" id="block-training" class="footer-menu">
+
+        <h2>Training</h2>
+
+        <ul class="menu">
+          <li>
+            <a href="https://studio.support.brightcove.com/training/online-training-courses.html">Online Courses</a>
+          </li>
+          <li>
+            <a href="https://studio.support.brightcove.com/training/register-training.html">Register for a course</a>
+          </li>
+          <li>
+            <a href="https://university.brightcove.com/">Brightcove University</a>
+          </li>
+        </ul>
+
+      </nav>
+      <nav role="navigation" aria-labelledby="block-brightcove-menu" class="footer-menu">
+
+        <h2>Brightcove</h2>
+
+        <ul class="menu">
+          <li>
+            <a href="https://www.brightcove.com">Brightcove.com</a>
+          </li>
+          <li>
+            <a href="https://supportportal.brightcove.com">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="row">
+    <div class="region region-footer-bottom-center col-md-12">
+      <div class="bcls-copyright footer-menu">
+        <table>
+          <tr>
+            <td>
+              <div id="bc_copyright" class="field field--name-field-copyright-year field--type-string field--label-hidden field--item" style="float: left;"> Brightcove Inc. All rights reserved.</div>
+            </td>
+            <td><a href="https://www.brightcove.com/en/legal/privacy">Privacy</a> | <a href="https://www.brightcove.com/en/terms-and-conditions">Terms &amp; Conditions</a></td>
+            <td>
+              <div class="gf-links-cols footer-menu">
+                <div class="gf-social"><a href="https://www.linkedin.com/company/16439" title="LinkedIn" target="_blank" class="gf-social-linkedin" style="margin-right: 1rem;"><i data-feather="linkedin" style="color:#8E9093;height: 1.25rem;"></i></a><a href="https://twitter.com/brightcove" title="Twitter" target="_blank" class="gf-social-twitter" style="margin-right: 1rem;"><i data-feather="twitter" style="color:#8E9093;height: 1.25rem;"></i></a><a href="https://www.facebook.com/Brightcove" title="Facebook" target="_blank" class="gf-social-facebook"><i data-feather="facebook" style="color:#8E9093;height: 1.25rem;"></i></a>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script translate="no">
+      
+  var searchBox = sajari.init({
+    mode: "search-box",
+    project: "1588255093746585379", // Set this to your project.
+    collection: "brightcove-documenation", // Set this to your collection.
+    instantPipeline: "autocomplete", // Pipeline used as you type
+    inputPlaceholder: "Search", // Input element placeholder
+    maxSuggestions: 5, // Maximum number of suggestions to show
+    attachSearchBox: document.getElementById("nav-search-box") // DOM element to attach to
+  });
+  
+    searchBox("sub", "pipeline.search-sent", function (_, query) {
+      window.location = "/search.html?q=" + encodeURIComponent(query.q);
+    });
+  
+
+</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/https-fix.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/setDate.js"></script>
+  
+  <script src="https://support.brightcove.com/site-assets/js/site/prism.js"></script>
+  
+  <script src="https://support.brightcove.com/site-assets/js/site/site.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/learning-paths/learning-paths.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/tabs.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/toc.js"></script>
+  <script src="/assets/js/sites_nav.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/bcls-utils.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/local-link-fix.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/sajari-reindex.js"></script>
+  <script src="/assets/js/feedback.js"></script>
+  
+  <script src="/assets/js/sajari-search-foot.js"></script>
+  
+  <!-- <script src="/assets/js/sajari-index.js"></script> -->
+  <style translate="no">
+    a.sj-paginator__page-number.sj-paginator__page-number--current.css-so0ov7 {
+      background-color: lightblue;
+    }
+    div.sj-tabs__tab {
+      margin-top: 3rem;
+      margin-left: .3rem;
+      border-top-left-radius: .4rem;
+      border-top-right-radius: .4rem;
+      background-color:#e8e8e8;
+    }
+
+    div.sj-tabs__tab.sj-tabs__tab--selected {
+      border-bottom-color: crimson;
+      background-color: #f8f8f8;
+    }
+
+    p.sj-results__result__description.css-p9jvyt {
+      font-size: 1rem;
+    }
+
+    .sj-result__text.css-31l7gp h3 {
+      color: navy;
+      font-size: 1.4rem;
+    }
+    </style>
+
+</body>
+
+</html>

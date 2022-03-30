@@ -19,10 +19,28 @@
   name: 'General Information'
   url: '/general/index.html'
   docs:
-    - name: 'Calculating Lifetime Value in a SVoD Business'
-      url: /general/calculating-lifetime-value-in-a-svod-bus.html
+    - name: 'Automating Smarter Campaigns with User Segments'
+      url: /general/automating-smarter-campaigns-with-user-s.html
     - name: 'Brightcove Audience Insights and Data Security'
       url: /general/audience-insights-data-security.html
+    - name: 'Calculating Lifetime Value in a SVoD Business'
+      url: /general/calculating-lifetime-value-in-a-svod-bus.html
+    - name: 'Content as Context for Better Segmentation'
+      url: /general/content-as-context-for-better-segmentation.html
+    - name: 'Custom Insights'
+      url: /general/introducing-custom-insights.html
+    - name: 'Enhance HubSpot Campaigns with the Wicket Scorecard'
+      url: /general/enhance-hubspot-campaigns-with-the-wicke.html
+    - name: 'Looking Beyond Views to Find Entertainment Value in OTT Content'
+      url: /general/looking-beyond-views-to-find-entertainme.html
+    - name: 'Measuring Content Momentum'
+      url: /general/measuring-content-momentum.html
+    - name: 'Seeing the Big Picture of Your OTT Business'
+      url: /general/seeing-the-big-picture-of-your-ott-busin.html
+    - name: 'Streamlining Workflow with Automated Subscriber Sync'
+      url: /general/streamlining-workflow-with-automated-sub.html
+    - name: 'Understanding Content through the Lens of Your Customer Attention Index'
+      url: /general/understanding-content-through-the-lens-o.html
 - section: 
   name: 'Use Cases'
   url: '/use-cases/index.html'

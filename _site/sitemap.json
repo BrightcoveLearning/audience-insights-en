@@ -15,6 +15,11 @@
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/general/automating-smarter-campaigns-with-user-s.html",
+      "oldURL": "/automating-smarter-campaigns-with-user-s"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/automating-smarter-campaigns-with-user-s.html",
       "oldURL": "/automating-smarter-campaigns-with-user-s"
   },
@@ -42,6 +47,11 @@
   {
       "newURL": "https://audience-insights.support.brightcove.com/support/contact-sales.html",
       "oldURL": "/contact-sales"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/general/content-as-context-for-better-segmentation.html",
+      "oldURL": "/content-as-context-for-better-segmentation"
   },
 
   {
@@ -97,6 +107,11 @@
   {
       "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/employee-spotlight-mary-morrison.html",
       "oldURL": "/employee-spotlight-mary-morrison"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/general/enhance-hubspot-campaigns-with-the-wicke.html",
+      "oldURL": "/enhance-hubspot-campaigns-with-the-wicke"
   },
 
   {
@@ -170,12 +185,32 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/",
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/",
       "oldURL": "/index"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/use-cases/",
+      "newURL": "https://audience-insights.support.brightcove.com/insights/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/general/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/integration/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/acquisition/",
       "oldURL": "/index"
   },
 
@@ -190,12 +225,7 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/use-cases/acquisition/",
+      "newURL": "https://audience-insights.support.brightcove.com/guides/",
       "oldURL": "/index"
   },
 
@@ -217,6 +247,11 @@
   {
       "newURL": "https://audience-insights.support.brightcove.com/integration/integration_spotlight_vimeo.html",
       "oldURL": "/integration_spotlight_vimeo"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/general/introducing-custom-insights.html",
+      "oldURL": "/introducing-custom-insights"
   },
 
   {
@@ -255,8 +290,18 @@
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/general/looking-beyond-views-to-find-entertainme.html",
+      "oldURL": "/looking-beyond-views-to-find-entertainme"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/guides/lost-customers/lost-customers.html",
       "oldURL": "/lost-customers"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/general/measuring-content-momentum.html",
+      "oldURL": "/measuring-content-momentum"
   },
 
   {
@@ -325,6 +370,11 @@
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/getting-started/release-notes.html",
+      "oldURL": "/release-notes"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/support/reset-support-portal-password.html",
       "oldURL": "/reset-support-portal-password"
   },
@@ -350,6 +400,11 @@
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/general/seeing-the-big-picture-of-your-ott-busin.html",
+      "oldURL": "/seeing-the-big-picture-of-your-ott-busin"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/seeing-your-whole-ott-business.html",
       "oldURL": "/seeing-your-whole-ott-business"
   },
@@ -362,6 +417,11 @@
   {
       "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/sports-video-services-getting-back-to-action.html",
       "oldURL": "/sports-video-services-getting-back-to-action"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/general/streamlining-workflow-with-automated-sub.html",
+      "oldURL": "/streamlining-workflow-with-automated-sub"
   },
 
   {
@@ -382,6 +442,11 @@
   {
       "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/top-6-ott-analytics-updates-2020.html",
       "oldURL": "/top-6-ott-analytics-updates-2020"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/general/understanding-content-through-the-lens-o.html",
+      "oldURL": "/understanding-content-through-the-lens-o"
   },
 
   {
