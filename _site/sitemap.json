@@ -15,12 +15,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/automating-smarter-campaigns-with-user-s.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/automating-smarter-campaigns-with-user-s.html",
       "oldURL": "/automating-smarter-campaigns-with-user-s"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/automating-smarter-campaigns-with-user-s.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/automating-smarter-campaigns-with-user-s.html",
       "oldURL": "/automating-smarter-campaigns-with-user-s"
   },
 
@@ -50,12 +50,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/content-as-context-for-better-segmentation.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/content-as-context-for-better-segmentation.html",
       "oldURL": "/content-as-context-for-better-segmentation"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/content-as-context-for-better-segmentation.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/content-as-context-for-better-segmentation.html",
       "oldURL": "/content-as-context-for-better-segmentation"
   },
 
@@ -190,12 +190,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/insights/",
+      "newURL": "https://audience-insights.support.brightcove.com/support/",
       "oldURL": "/index"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/use-cases/",
+      "newURL": "https://audience-insights.support.brightcove.com/general/",
       "oldURL": "/index"
   },
 
@@ -205,22 +205,7 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/support/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/use-cases/acquisition/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/integration/",
+      "newURL": "https://audience-insights.support.brightcove.com/insights/",
       "oldURL": "/index"
   },
 
@@ -230,7 +215,32 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/",
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/guides/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/win-back/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/integration/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/acquisition/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/retention/",
       "oldURL": "/index"
   },
 
@@ -255,12 +265,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/introducing-custom-insights.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/introducing-custom-insights.html",
       "oldURL": "/introducing-custom-insights"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/introducing-custom-insights.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/introducing-custom-insights.html",
       "oldURL": "/introducing-custom-insights"
   },
 
@@ -450,12 +460,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/understanding-content-through-the-lens-o.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/understanding-content-through-the-lens-o.html",
       "oldURL": "/understanding-content-through-the-lens-o"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/understanding-content-through-the-lens-o.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/understanding-content-through-the-lens-o.html",
       "oldURL": "/understanding-content-through-the-lens-o"
   },
 

@@ -46,7 +46,7 @@
   url: '/use-cases/index.html'
   docs:
     - name: "Acquisition"
-      url: '/use-cases/index.html'
+      url: '/use-cases/acquisition/index.html'
       docs:
         - name: 'Find Customers with Facebook'
           url: '/use-cases/acquisition/how_to_find_more_happy_customers_with_fa.html'
@@ -57,14 +57,14 @@
         - name: 'Running Better Campaigns'
           url: '/use-cases/acquisition/running_better_campaigns_using_initial_v.html'
     - name: "Retention"
-      url: '/use-cases/index.html'
+      url: '/use-cases/retention/index.html'
       docs:
         - name: 'Promoting Upgrades'
           url: '/use-cases/retention/promoting_upgrades_to_annual_plans.html'
         - name: 'Using Genre to Match Content'
           url: '/use-cases/retention/using_genre_to_match_viewers_with_content.html'
     - name: "Win-back"
-      url: '/use-cases/index.html'
+      url: '/use-cases/win-back/index.html'
       docs:
         - name: 'Exclusive Content Alerts'
           url: '/use-cases/win-back/exclusive_content_alerts.html'
