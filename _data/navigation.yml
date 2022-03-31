@@ -15,6 +15,10 @@
       url: '/guides/summary/customer-summary.html'
     - name: 'Lost Customers'
       url: '/guides/lost-customers/lost-customers.html'
+    - name: 'Engagement: Overview'
+      url: '/guides/engagement/engagement-overview.html'
+    - name: 'Engagement: Usage Trends'
+      url: '/guides/engagement/engagement-usage-trends.html'
 - section:
   name: 'General Information'
   url: '/general/index.html'
