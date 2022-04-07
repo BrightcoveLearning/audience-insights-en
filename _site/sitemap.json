@@ -105,6 +105,11 @@
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/guides/distribution/distribution.html",
+      "oldURL": "/distribution"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/diving-deeper-into-content-data.html",
       "oldURL": "/diving-deeper-into-content-data"
   },
@@ -135,12 +140,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/enhance-hubspot-campaigns-with-the-wicke.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/enhance-hubspot-campaigns-with-the-wicke.html",
       "oldURL": "/enhance-hubspot-campaigns-with-the-wicke"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/enhance-hubspot-campaigns-with-the-wicke.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/enhance-hubspot-campaigns-with-the-wicke.html",
       "oldURL": "/enhance-hubspot-campaigns-with-the-wicke"
   },
 
@@ -210,27 +215,17 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/use-cases/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/integration/",
-      "oldURL": "/index"
-  },
-
-  {
       "newURL": "https://audience-insights.support.brightcove.com/support/",
       "oldURL": "/index"
   },
 
   {
       "newURL": "https://audience-insights.support.brightcove.com/getting-started/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/",
       "oldURL": "/index"
   },
 
@@ -245,11 +240,6 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/insights/",
-      "oldURL": "/index"
-  },
-
-  {
       "newURL": "https://audience-insights.support.brightcove.com/guides/",
       "oldURL": "/index"
   },
@@ -260,7 +250,22 @@
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/integration/",
+      "oldURL": "/index"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/insights/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/general/",
       "oldURL": "/index"
   },
 
@@ -320,12 +325,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/looking-beyond-views-to-find-entertainme.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/looking-beyond-views-to-find-entertainme.html",
       "oldURL": "/looking-beyond-views-to-find-entertainme"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/looking-beyond-views-to-find-entertainme.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/looking-beyond-views-to-find-entertainme.html",
       "oldURL": "/looking-beyond-views-to-find-entertainme"
   },
 
