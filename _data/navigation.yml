@@ -23,6 +23,12 @@
       url: '/guides/engagement/engagement-overview.html'
     - name: 'Engagement: Usage Trends'
       url: '/guides/engagement/engagement-usage-trends.html'
+    - name: 'Engagement: Status Over Time'
+      url: '/guides/engagement/engagement-status-over-time.html'
+    - name: 'Engagement: Sessions Over Time'
+      url: '/guides/engagement/engagement-sessions-over-time.html'
+    - name: 'Engagement: Hours Viewed By'
+      url: '/guides/engagement/engagement-hours-viewed-by.html'
 - section:
   name: 'General Information'
   url: '/general/index.html'
