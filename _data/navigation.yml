@@ -29,6 +29,8 @@
       url: '/guides/engagement/engagement-sessions-over-time.html'
     - name: 'Engagement: Hours Viewed By'
       url: '/guides/engagement/engagement-hours-viewed-by.html'
+    - name: 'Distribution'
+      url: '/guides/distribution/distribution.html'
 - section:
   name: 'General Information'
   url: '/general/index.html'
