@@ -155,12 +155,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/enhance-hubspot-campaigns-with-the-wicke.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/enhance-hubspot-campaigns-with-the-wicke.html",
       "oldURL": "/enhance-hubspot-campaigns-with-the-wicke"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/enhance-hubspot-campaigns-with-the-wicke.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/enhance-hubspot-campaigns-with-the-wicke.html",
       "oldURL": "/enhance-hubspot-campaigns-with-the-wicke"
   },
 
@@ -230,22 +230,7 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/use-cases/win-back/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/general/",
-      "oldURL": "/index"
-  },
-
-  {
       "newURL": "https://audience-insights.support.brightcove.com/insights/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/",
       "oldURL": "/index"
   },
 
@@ -255,12 +240,7 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/use-cases/retention/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/use-cases/acquisition/",
+      "newURL": "https://audience-insights.support.brightcove.com/support/",
       "oldURL": "/index"
   },
 
@@ -270,12 +250,27 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/getting-started/",
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/win-back/",
       "oldURL": "/index"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/support/",
+      "newURL": "https://audience-insights.support.brightcove.com/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/acquisition/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/retention/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/general/",
       "oldURL": "/index"
   },
 
@@ -285,8 +280,18 @@
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/getting-started/",
+      "oldURL": "/index"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/index_for_launch.html",
       "oldURL": "/index_for_launch"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/integration/integration_spotlight_braze.html",
+      "oldURL": "/integration_spotlight_braze"
   },
 
   {
@@ -390,12 +395,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/ott-benchmarks-%E2%80%93-how-do-you-compare-to-y.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/ott-benchmarks-%E2%80%93-how-do-you-compare-to-y.html",
       "oldURL": "/ott-benchmarks-–-how-do-you-compare-to-y"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/ott-benchmarks-%E2%80%93-how-do-you-compare-to-y.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/ott-benchmarks-%E2%80%93-how-do-you-compare-to-y.html",
       "oldURL": "/ott-benchmarks-–-how-do-you-compare-to-y"
   },
 
