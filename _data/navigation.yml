@@ -57,6 +57,16 @@
       url: '/guides/engagement/engagement-hours-viewed-by.html'
     - name: 'Distribution'
       url: '/guides/distribution/distribution.html'
+- section:
+  name: 'Integrations'
+  url: '/integration/index.html'
+  docs:
+    - name: 'Evergent'
+      url: /integration/integration_spotlight_evergent.html
+    - name: 'HubSpot'
+      url: /integration/integration_spotlight_hubspot.html
+    - name: 'Vimeo'
+      url: /integration/integration_spotlight_vimeo.html
 - section: 
   name: 'Use Cases'
   url: '/use-cases/index.html'
