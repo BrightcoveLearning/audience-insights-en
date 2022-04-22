@@ -60,6 +60,11 @@
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/guides/content/content-catalog-by.html",
+      "oldURL": "/content-catalog-by"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/guides/content/content-overview.html",
       "oldURL": "/content-overview"
   },
@@ -155,12 +160,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/enhance-hubspot-campaigns-with-the-wicke.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/enhance-hubspot-campaigns-with-the-wicke.html",
       "oldURL": "/enhance-hubspot-campaigns-with-the-wicke"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/enhance-hubspot-campaigns-with-the-wicke.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/enhance-hubspot-campaigns-with-the-wicke.html",
       "oldURL": "/enhance-hubspot-campaigns-with-the-wicke"
   },
 
@@ -240,22 +245,7 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/support/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/use-cases/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/use-cases/win-back/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/",
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/retention/",
       "oldURL": "/index"
   },
 
@@ -265,7 +255,27 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/use-cases/retention/",
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/win-back/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/getting-started/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/support/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/",
       "oldURL": "/index"
   },
 
@@ -276,11 +286,6 @@
 
   {
       "newURL": "https://audience-insights.support.brightcove.com/guides/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/getting-started/",
       "oldURL": "/index"
   },
 
