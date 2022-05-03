@@ -1,0 +1,931 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex,nofollow"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="A guide to important terminology for Brightcove Audience Insights.">
+  
+  <title>Audience Insights Glossary</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/prism.css">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/styles.css">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/landing-page.css">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/tabs.css">
+  <link rel="stylesheet" href="/assets/css/local.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2728311-17"></script>
+<script translate="no">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-2728311-17');
+</script>
+  <script src="/assets/js/sajari-head.js"></script>
+	<script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+
+<body class="body">
+
+<header>
+  <div class="div-header">
+    <a href="/"><img class="product-logo" src="https://support.brightcove.com/site-assets/images/site/product-logos/SVG/AudienceInsights_H_RGB_K.svg" alt="Brightcove"></a>
+<!-- GTranslate: https://gtranslate.io/ -->
+<select onchange="doGTranslate(this);"><option value=">Select Language</option><option value="en|en" translate="No">English</option><option value="en|zh-TW" translate="No">繁體中文</option><option value="en|fr" translate="No">Français</option><option value="en|de" translate="No">Deutsche</option><option value="en|ja" translate="No">日本語</option><option value="en|ko" translate="No">한국어</option><option value="en|es" translate="No">Español</option></select>
+
+<script translate="no">
+/* <![CDATA[ */
+function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.hostname.split('.')[0];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='en';location.href=location.protocol+'//'+(lang == 'en' ? '' : lang+'.')+location.hostname.replace('www.', '').replace(RegExp('^' + plang + '\\.'), '')+location.pathname+location.search;}
+/* ]]> */
+</script>
+
+
+
+&nbsp;<span class="secondary-nav"><a href="https://support.brightcove.com/product-updates.html">Product Updates</a> <span style="vertical-align: middle;margin-left:1em;margin-right:1em;">|</span> <a href="https://supportportal.brightcove.com">Contact Support</a> <span style="vertical-align: middle;margin-left:1em;margin-right:1em;">|</span> <a href="https://status.brightcove.com/">System Status</a></span>
+    <br>
+    
+  </div>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb arr-right">
+      
+      <li class="breadcrumb-item first-item"><a href="/">Home</a></li>
+      
+      
+      
+      <li class="breadcrumb-item"><a href="/getting-started/">Getting Started</a></li>
+      
+      <li class="breadcrumb-item active" aria-current="page">Audience Insights Glossary</li>
+    </ol>
+  </nav>
+</header> 
+<div class="container">
+    <div class="row">
+      <div class="col-sm-3 left-side-bar">
+				<select id="site_select" class="bcls-select" style="margin-left: 1rem;">
+					<option value="">Other Brightcove Docs</option>
+					
+						
+							<option value="https://support.brightcove.com">Documentation Home</option>
+						
+					
+						
+							<option value="">-- VIDEO CLOUD --</option>
+						
+					
+						
+							<option value="https://studio.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Studio</option>
+						
+					
+						
+							<option value="https://player.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Player Development</option>
+						
+					
+						
+							<option value="https://apis.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Platform APIs</option>
+						
+					
+						
+							<option value="https://sdks.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Device SDKs</option>
+						
+					
+						
+							<option value="https://integrations.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Integrations and CMS Connectors</option>
+						
+					
+						
+							<option value="https://general.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud General Information</option>
+						
+					
+						
+							<option value="">-- VIDEO ESSENTIALS --</option>
+						
+					
+						
+							<option value="https://audience-insights.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Audience Insights</option>
+						
+					
+						
+							<option value="https://beacon-help.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Beacon Studio</option>
+						
+					
+						
+							<option value="https://beacon.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Beacon Classic</option>
+						
+					
+						
+							<option value="https://corptv.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;CorpTV</option>
+						
+					
+						
+							<option value="https://live.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Live</option>
+						
+					
+						
+							<option value="https://zencoder.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Zencoder</option>
+						
+					
+						
+							<option value="">-- VIDEO CLOUD ADD-ONS --</option>
+						
+					
+						
+							<option value="https://campaign.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Campaign</option>
+						
+					
+						
+							<option value="https://engage.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Engage</option>
+						
+					
+						
+							<option value="https://gallery.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Gallery</option>
+						
+					
+						
+							<option value="https://studio.support.brightcove.com/social/index.html">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Social</option>
+						
+					
+						
+							<option value="https://ssai.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove SSAI</option>
+						
+					
+				</select>
+        <nav class="sidenav" id="side_nav">
+          
+            
+            <h5><a href="/">Home</a></h5>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/getting-started/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;Getting Started</a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/getting-started/overview-audience-insights.html">Overview: Audience Insights</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/general/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;General Information</a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/general/automating-smarter-campaigns-with-user-s.html">Automating Smarter Campaigns with User Segments</a></li>
+                  
+                
+                  
+                    <li><a href="/general/audience-insights-data-security.html">Brightcove Audience Insights and Data Security</a></li>
+                  
+                
+                  
+                    <li><a href="/general/calculating-lifetime-value-in-a-svod-bus.html">Calculating Lifetime Value in a SVoD Business</a></li>
+                  
+                
+                  
+                    <li><a href="/general/content-as-context-for-better-segmentation.html">Content as Context for Better Segmentation</a></li>
+                  
+                
+                  
+                    <li><a href="/general/introducing-custom-insights.html">Custom Insights</a></li>
+                  
+                
+                  
+                    <li><a href="/general/enhance-hubspot-campaigns-with-the-wicke.html">Enhance HubSpot Campaigns with the Audience Insights Dashboard</a></li>
+                  
+                
+                  
+                    <li><a href="/general/looking-beyond-views-to-find-entertainme.html">Looking Beyond Views to Find Entertainment Value in OTT Content</a></li>
+                  
+                
+                  
+                    <li><a href="/general/measuring-content-momentum.html">Measuring Content Momentum</a></li>
+                  
+                
+                  
+                    <li><a href="/general/seeing-the-big-picture-of-your-ott-busin.html">Seeing the Big Picture of Your OTT Business</a></li>
+                  
+                
+                  
+                    <li><a href="/general/streamlining-workflow-with-automated-sub.html">Streamlining Workflow with Automated Subscriber Sync</a></li>
+                  
+                
+                  
+                    <li><a href="/general/understanding-content-through-the-lens-o.html">Understanding Content through the Lens of Your Customer Attention Index</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/guides/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;Guides</a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/guides/summary/customer-summary.html">Customer Summary</a></li>
+                  
+                
+                  
+                    <li><a href="/guides/customers/current-customers.html">Current Customers</a></li>
+                  
+                
+                  
+                    <li><a href="/guides/conversions/conversions.html">Conversions</a></li>
+                  
+                
+                  
+                    <li><a href="/guides/lost-customers/lost-customers.html">Lost Customers</a></li>
+                  
+                
+                  
+                    <li><a href="/guides/engagement/engagement-overview.html">Engagement: Overview</a></li>
+                  
+                
+                  
+                    <li><a href="/guides/engagement/engagement-usage-trends.html">Engagement: Usage Trends</a></li>
+                  
+                
+                  
+                    <li><a href="/guides/engagement/engagement-status-over-time.html">Engagement: Status Over Time</a></li>
+                  
+                
+                  
+                    <li><a href="/guides/engagement/engagement-sessions-over-time.html">Engagement: Sessions Over Time</a></li>
+                  
+                
+                  
+                    <li><a href="/guides/engagement/engagement-hours-viewed-by.html">Engagement: Hours Viewed By</a></li>
+                  
+                
+                  
+                    <li><a href="/guides/distribution/distribution.html">Distribution</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/integration/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;Integrations</a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/integration/integration_spotlight_braze.html">Braze</a></li>
+                  
+                
+                  
+                    <li><a href="/integration/integration_spotlight_evergent.html">Evergent</a></li>
+                  
+                
+                  
+                    <li><a href="/integration/integration_spotlight_hubspot.html">HubSpot</a></li>
+                  
+                
+                  
+                    <li><a href="/integration/integration_spotlight_vimeo.html">Vimeo</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/use-cases/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;Use Cases</a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li class="submenu-header">
+                      <a href="/use-cases/acquisition/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;Acquisition</a>
+                      <ul class="sidenav-subsubmenu" style="display:none;">
+                        
+                          
+                            <li><a href="/use-cases/acquisition/how_to_find_more_happy_customers_with_fa.html">Find Customers with Facebook</a></li>
+                          
+                        
+                          
+                            <li><a href="/use-cases/acquisition/how_to_find_more_happy_customers_with_go.html">Find Customers with Google Ads</a></li>
+                          
+                        
+                          
+                            <li><a href="/use-cases/acquisition/how_to_find_more_happy_customers_with_tw.html">Find Customers with Twitter</a></li>
+                          
+                        
+                          
+                            <li><a href="/use-cases/acquisition/running_better_campaigns_using_initial_v.html">Running Better Campaigns</a></li>
+                          
+                        
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="submenu-header">
+                      <a href="/use-cases/retention/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;Retention</a>
+                      <ul class="sidenav-subsubmenu" style="display:none;">
+                        
+                          
+                            <li><a href="/use-cases/retention/promoting_upgrades_to_annual_plans.html">Promoting Upgrades</a></li>
+                          
+                        
+                          
+                            <li><a href="/use-cases/retention/using_genre_to_match_viewers_with_content.html">Using Genre to Match Content</a></li>
+                          
+                        
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="submenu-header">
+                      <a href="/use-cases/win-back/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;Win-back</a>
+                      <ul class="sidenav-subsubmenu" style="display:none;">
+                        
+                          
+                            <li><a href="/use-cases/win-back/exclusive_content_alerts.html">Exclusive Content Alerts</a></li>
+                          
+                        
+                          
+                            <li><a href="/use-cases/win-back/how_to_win_back_lost_subscribers.html">Win-back Lost Subscribers</a></li>
+                          
+                        
+                          
+                            <li><a href="/use-cases/win-back/new_app_or_device_based_on_their_primary.html">Primary Viewing Device</a></li>
+                          
+                        
+                          
+                            <li><a href="/use-cases/win-back/new_content_based_on_past_viewing.html">Content Based on Viewing</a></li>
+                          
+                        
+                          
+                            <li><a href="/use-cases/win-back/price_change_awareness_offers.html">Price Change Awareness</a></li>
+                          
+                        
+                      </ul>
+                    </li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/support/"><span style="color:#8E9093">+</span>&nbsp;&nbsp;Support</a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/support/known-issues.html">Known Issues</a></li>
+                  
+                
+                  
+                    <li><a href="/support/viewing-brightcove-system-status-page.html">Viewing the Brightcove System Status Page</a></li>
+                  
+                
+                  
+                    <li><a href="/support/contact-sales.html">Contact Sales</a></li>
+                  
+                
+                  
+                    <li><a href="/support/opening-case-with-brightcove-support.html">Opening a Support Case</a></li>
+                  
+                
+                  
+                    <li><a href="/support/reset-support-portal-password.html">Reset Your Support Portal Password</a></li>
+                  
+                
+              </ul>
+            
+          
+      </nav>
+    </div>
+    <div class="col-lg-7" style="background-color: white;color: #333333;margin-top: -1em;margin-bottom: -1em;padding-bottom:1em;">
+  <!-- bootstrap layout -->
+
+<i id="bc_veggie_burger_wrapper" data-feather="menu" style="display: none;"></i>
+
+<!-- search bar -->
+<div id="nav-search-box" style="margin-top: 1rem;"></div>
+<!-- in-page navigation for narrow screens -->
+<details class="centered-inpage-nav" id="centered_inpage_nav">
+  <summary><h6 class="toc">Page Contents</h6></summary>
+  <nav id="centered_toc"></nav>
+  <ul id="centered_in_page_toc" class="list-none"></ul>
+</details>
+<!-- open in new tab/window -->
+<a id="open_new_tab" href="#" target="_blank" style="display: none;"><i data-feather="external-link" alt="open in new tab"></i></a>
+
+
+
+  
+    
+
+
+<article class="bcls-article">
+  <h1>Audience Insights Glossary</h1>
+  <summary>A guide to important terminology for Brightcove Audience Insights.</summary>
+  <p>
+    <style type="text/css">
+dt {font-weight: bold;}
+dd { padding-bottom: 10px; }
+</style>
+  </p>
+  <p>| <a href="#A">-A-</a> | <a href="#B">-B-</a> | <a href="#C">-C-</a> | <a href="#D">-D-</a> | <a href="#E">-E-</a> | <a href="#F">-F-</a> | <a href="#G">-G-</a> | <a href="#H">-H-</a> | <a href="#I">-I-</a> | <a href="#J">-J-</a> | <a href="#K">-K-</a> | <a href="#L">-L-</a> | <a href="#M">-M-</a> | <a href="#N">-N-</a> | <a href="#O">-O-</a> | <a href="#P">-P-</a> | <a href="#Q">-Q-</a> | <a href="#R">-R-</a> | <a href="#S">-S-</a> | <a href="#T">-T-</a> | <a href="#U">-U-</a> | <a href="#V">-V-</a> | <a href="#W">-W-</a> | <a href="#X">-X-</a> | <a href="#Y">-Y-</a> | <a href="#Z">-Z-</a> |</p>
+  <section class="bcls-section">
+    <h2 id="A">--A--</h2>
+    <dl>
+      <dt id="AccessToken">Access Token</dt>
+      <dd>A temporary OAuth2 token that allows access to the REST APIs such as the CMS API, Analytics API, and Dynamic Ingest API.</dd>
+      <dt id="active_media">Active Media</dt>
+      <dd>The number of active videos in the account. Note that this data is not real-time - it is synced from your video library once a day. Also note that this data may not be accurate if you are looking at "real-time" analytics data (less than 3 days old).</dd>
+      <dt id="AdRequest">Ad Request</dt>
+      <dd>A request (call) made from a Video Cloud player to an ad server. The ad request is an HTTP call and includes key/value pairs that pass information that helps the ad server target an appropriate ad for the context. Not every ad request will return an ad.</dd>
+      <dt id="Affiliate">Affiliate</dt>
+      <dd>Web publishers who syndicate Video Cloud players.</dd>
+      <dt id="api">Analytics API</dt>
+      <dd>REST-based application programming interface that allows developers to retrieve analytics metrics for Video Cloud accounts and videos in JSON or CSV format. The Analytics API also provides the data displayed in the Analytics UI in Video Cloud Studio.
+      <dt id="AppleHLS">Apple HLS</dt>
+      <dd>Apple HTTP Live Streaming, a protocol implemented by Apple for delivering video on demand. Apple HLS breaks the video into a sequence of small file downloads, each download loading one short chunk of the video using HTTP. Note that Apple HTTP Live Streaming has nothing to do with <a href="#livevideo">live streaming video</a>.</dd>
+      <dt id="aspect">Aspect Ratio</dt>
+      <dd>The ratio of width to height for the frame of a video. 4:3 for standard systems and 16:9 for HDTV.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="B">--B--</h2>
+    <dl>
+      <dt id="bandwidth">Bandwidth</dt>
+      <dd>The range of signal frequencies that a piece of audio or video equipment can encode or decode. Video uses higher frequency than audio, thus requires a wider bandwidth.</dd>
+      <dt id="Blog">Blog</dt>
+      <dd>A web-based publication consisting of periodic contributions, often in reverse chronological order.</dd>
+      <dt id="bcplayer">Brightcove Player</dt>
+      <dd>The Brightcove Player is a high-performance, cross-platform HTML5-first video player that loads quickly, delivers high-quality adaptive bitrate HLS video across desktop and mobile platforms, and integrates with your favorite advertising and analytics systems.</dd>
+      <dt id="bcplayerapi">Brightcove Player API</dt>
+      <dd>The Brightcove Player API can be use to programmtically control the appearance and behavior of the Brightcove Player.</dd>
+      <dt id="Broadband">Broadband video channel</dt>
+      <dd>A collection of related videos distributed through the Internet.</dd>
+      <dt id="Bumper">Bumper</dt>
+      <dd>A short video clip that can appear before a full-length video or when a player loads.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="C">--C--</h2>
+    <dl>
+      <dt id="cmsapi">CMS API</dt>
+      <dd>The <span translate="No">CMS API</span> provides uncached read and write access to the video metadata.</dd>
+      <dt id="Codec">Codec</dt>
+      <dd>The algorithm used to capture analog video or audio in digital form. Compare with <a href="#container"><em>container</em></a>.</dd>
+      <dt id="container">Container</dt>
+      <dd>A video container is a format that defines how the video's metadata is stored along with the video and audio data. It does not define the coding or compression of the data. For example, MP4 can be a container for H.264 files.</dd>
+      <dt id="CDN">Content Delivery Network (CDN)</dt>
+      <dd>A service offering networked servers that transparently deliver content (especially large media content) to end users. Two prominent CDNs are Akamai and Limelight.</dd>
+      <dt id="contenttargeting">Content Targeting</dt>
+      <dd>Content target is a process used to display different content to different visitors based on information known about that visitor.</dd>
+      <dt id="CSS">CSS</dt>
+      <dd>Cascading Style Sheets are a standard mechanism for controlling the design of an HTML page. CSS is used to style Brightcove Players.</dd>
+      <dt id="Cue_points">Cue points</dt>
+      <dd>Invisible markers inserted at specific points in a video that can be used to trigger external events, such as a mid-roll ad request or a closed caption. You can set cue points using the Media module.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="D">--D--</h2>
+    <dl>
+      <dt id="dash">DASH (MPEG-DASH)</dt>
+      <dd>Dynamic Adaptive Streaming over HTTP (also known as MPEG-DASH) is is an adaptive bitrate streaming technique that enables high quality streaming of media content over the Internet delivered from conventional HTTP web servers. Similar to <a href="#AppleHLS">Apple's HTTP Live Streaming (HLS)</a> solution, MPEG-DASH works by breaking the content into a sequence of small HTTP-based file segments.</dd>
+      <dt id="domainRestriction" >Domain Restriction</dt>
+      <dd>A basic form of content security that prevents a player from functioning except on specified domains.</dd>
+      <dt id="DRM_encoded">DRM</dt>
+      <dd>Digital Rights Management is a way to encrypt media files and package them so that they can only be decrypted based on a policy key.</dd>
+      <dt id="Dynamic_delivery">Dynamic Delivery</dt>
+      <dd>See <a href="#mbr">Multi-bitrate streaming</a>.</dd>
+      <dt id="diapi">Dynamic Ingest API</dt>
+      <dd>The Dynamic Ingest (DI) API is used to instruct Video Cloud to retrieve a video asset and create renditions for it. The <span translate="No">Dynamic Ingest API</span> can also be used to ingest thumbnail and poster images or WebVTT files for captions, chapters, or subtitles.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="E">--E--</h2>
+    <dl>
+      <dt id="Encoding">Encoding</dt>
+      <dd>Converting video and audio data into a stream that can be played in a player.</dd>
+      <dt id="encryption">Encryption</dt>
+      <dd>The process of encoding video in such a way that only authorized parties can view it.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="F">--F--</h2>
+    <dl>
+      <dt id="framerate">Frame Rate</dt>
+      <dd>The number of frames per second at which a video clip is displayed.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="G">--G--</h2>
+    <dl>
+      <dt id="Geo-filtering">Geo-Filtering</dt>
+      <dd>Putting geographic restrictions on of videos, often for reasons of rights ownership.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="H">--H--</h2>
+    <dl>
+      <dt id="H.264">H.264 Format</dt>
+      <dd>Also known as MPEG-4 AVC (Advanced Video Coding). A file format used to deliver video over the Internet. The H.264 format is recommended for online video delivery. H.264 files typically use the MP4 container and have a .mp4 file extension. It offers significantly greater compression than previous formats.</dd>
+      <dt id="hls">HLS</dt>
+      <dd>HTTP Live Streaming - a video format created by Apple that makes a video available in short segments that are stream on the client side.</dd>
+      <dt id="HTML">HTML</dt>
+      <dd>(HyperText Markup Language) A markup language designed for the creation of web pages with hypertext and other information to be displayed in a web browser.</dd>
+      <dt id="html5">HTML5</dt>
+      <dd>HTML5 is a core technology markup language of the Internet used for structuring and presenting content for the World Wide Web. HTML5 is the fifth revision of the HTML standard of the World Wide Web Consortium (W3C).</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="I">--I--</h2>
+    <dl>
+      <dt id="ingest">Ingest Profile</dt>
+      <dd>Ingest profiles contain the transcode settings that will be used when videos are uploaded using the Upload module or the Dynamic Ingest API.</dd>
+      <dt id="ingestapi">Ingest Profiles API</dt>
+      <dd>The Ingest Profiles API allows you to create, retrieve, update, and delete ingest profiles for your Video Cloud account. Ingest Profiles define the renditions that are created when you add a video to Video Cloud.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="J">--J--</h2>
+    <dl>
+      <dt id="JavaScript">JavaScript</dt>
+      <dd>A scripting language best known for its use in web sites, although it is also used to enable scripting access to objects embedded in other applications.</dd>
+      <dt id="JPEG">JPEG (Joint Photographic Experts Group)</dt>
+      <dd>A commonly used standard method of lossy compression used for digital images. JPEG is the standard image format used in the Brightcove service for thumbnails, video stills, and background images.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="K">--K--</h2>
+    <dl>
+      <dt id="key_value_pairs" >Key/Value Pairs</dt>
+      <dd>When a player sends ad requests, it includes one or more key/value pairs (like category=sports) that give the ad server information about the context of the ad and improve ad targeting.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="L">--L--</h2>
+    <dl>
+      <dt id="letterbox">Letterbox</dt>
+      <dd>A method of displaying widescreen video on a screen with a different aspect ratio by leaving a space, usually black bars, above and below the image.</dd>
+      <dt id="logo">Logo</dt>
+      <dd>A proprietary graphic that symbolically represents a company's brand.</dd>
+      <dt id="logo_overlay">Logo Overlay</dt>
+      <dd>A small transparent image that is displayed in the video playback window. Also sometimes called a digital on-screen graphic (DOG), bug, or watermark.</dd>
+      <dt id="loop">Loop/looping</dt>
+      <dd>When the videos in a playlist are completed and the playlist starts playing at the beginning.</dd>
+      <dt id="livevideo">Live Streaming Video</dt>
+      <dd>A protocol for streaming video of an event as it happens, by pushing captured and encoded streams directly as opposed to distributing encoded files for streaming as for <a href="#VOD">VOD</a>.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="M">--M--</h2>
+    <dl>
+      <dt id="media_library">Media Library</dt>
+      <dd>The collection of videos, playlists, and other assets in your Video Cloud account.</dd>
+      <dt id="metadata">Metadata</dt>
+      <dd>Metadata refers to the descriptions, tags, genre, and other related information that you provide in the definition of a video.</dd>
+      <dt id="MPAA">MPAA film rating system</dt>
+      <dd>A system, instituted by the Motion Picture Association of America, to rate a movie based on its content. The MPAA rating system (G, PG, R, etc.) is the most recognized system for classifying potentially offensive content, but is usually restricted to use in the film industry because the MPAA has trademarks on each individual rating.</dd>
+      <dt id="mbr">Multi-bitrate streaming</dt>
+      <dd>A feature that supports multiple versions, or <a href="#rendition"><em>renditions</em></a>, for a single video and enables delivering a rendition that best matches the viewer's browser size and bandwidth. We formerly referred to this as "dynamic delivery."</dd>
+      <dt id="muxing">Muxing and demuxing</dt>
+      <dd>Writing and reading of audio and video streams into and from various <a href="#container"><em> container</em></a> formats.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="N">--N--</h2>
+    <dl>
+      <dt id="playersdk">Native Player SDKs</dt>
+      <dd>The Brightcove Native Player SDKs provide the tools needed for building video-enabled apps for iOS and Android.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="O">--O--</h2>
+    <dl>
+      <dt id="oauth">OAuth</dt>
+      <dd>OAuth is an open standard for authorization. OAuth provides client applications a 'secure delegated access' to server resources on behalf of a resource owner.</dd>
+      <dt id="oauthapi">OAuth API</dt>
+      <dd>The OAuth API is a RESTful API that allows you to get authorization tokens to access Brightcove's other REST APIs.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="P">--P--</h2>
+    <dl>
+      <dt id="playback">Playback</dt>
+      <dd>The playing of video media in a Video Cloud player.</dd>
+      <dt id="playbackapi">Playback API</dt>
+      <dd>The Playback API can be used at runtime to access video and playlist data for mobile apps or video portals.</dd>
+      <dt id="playermgmtapi">Player Management API</dt>
+      <dd>
+        <p>The Player Management API can be used to:</p>
+        <ul>
+          <li>Create a player</li>
+          <li>View the settings of a player</li>
+          <li>Change the settings of a player</li>
+          <li>List all the players associated with a publisher</li>
+          <li>Publish a player to make it available to the consumer</li>
+        </ul>
+      </dd>
+      <dt id="player_pub_code">Player Publishing Code</dt>
+      <dd>The code "snippet" used to embed a Brightcove Player in a web page.</dd>
+      <dt id="playlist">Playlist</dt>
+      <dd>A collection of videos that are grouped together in a particular order for playback in a Video Cloud player.</dd>
+      <dt id="playlistapi">Playlist API</dt>
+      <dd>The Playlist API is used to programmatically control a playlist using JavaScript.</dd>
+      <dt id="policyapi">Policy API</dt>
+      <dd>The Policy API is used to create or get policy keys that can be used to access the <a href="#playbackapi">Playback API</a>. Policy keys are automatically generated for Brightcove players.</dd>
+      <dt id="posterimage">Poster image</dt>
+      <dd>A static image that displays in the playback area of a video player before or after video playback.</dd>
+      <dt id="px">px</dt>
+      <dd>Abbreviation for pixels used in <a href="#CSS">CSS.</a></dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="Q">--Q--</h2>
+    <dl>
+      <dt id="">&nbsp;</dt>
+      <dd>&nbsp;</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="R">--R--</h2>
+    <dl>
+      <dt id="rendition">Rendition</dt>
+      <dd>When you use multi-bitrate streaming, you can create multiple versions of the same video, each with a different bit rate and dimensions. Each of these versions is referred to as a rendition. Video Cloud multi-bitrate streaming chooses the best rendition, based on the player's dimensions and the viewer's connection speed.</dd>
+      <dt id="reference_id">Reference ID</dt>
+      <dd>A unique ID assigned by a publisher to a video or playlist. The reference ID (ref id) is distinct from the video ID or playlist ID, which are unique IDs generated by Video Cloud. The reference ID enables coordination between Video Cloud and other services, such as a publisher's content management system.</dd>
+      <dt id="RSS_feed">RSS feed</dt>
+      <dd>Really Simple Syndication is a popular technology for notifying users of updates to content in a web site, blog, or Internet TV channel.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="S">--S--</h2>
+    <dl>
+      <dt id="search_engine">Search Engine</dt>
+      <dd>A program, such as Google, designed to help find information on the web.</dd>
+      <dt id="social_network">Social Network Website</dt>
+      <dd>A web site, such as Facebook or Twitter, which offers its viewer members the ability to share messages, media, and other information with each other.</dd>
+      <dt id="streaming">Streaming</dt>
+      <dd>A low-bit-rate encoding format intended for use over networks and the Internet. Streaming delivers the video in small segments with an encoded bit rate to match the connection speed of the user, so the remote viewer can play audio or video with minimal stoppage without first downloading the entire video file.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="T">--T--</h2>
+    <dl>
+      <dt id="tags">Tags</dt>
+      <dd>Individual keywords or phrases for organizing content. Brightcove supports the use of tags to as a way for publishers to organize and classify videos and for creating playlists.</dd>
+      <dt id="thumbnail">Thumbnail</dt>
+      <dd>A small image associated with a video used in listings for the video in players, web sites, and video search engines.</dd>
+      <dt id="token">Token-Based Authentication</dt>
+      <dd>Token-based authentication systems allow users to enter their username and password in order to obtain a token which allows them to fetch a specific resource without needing their username and password. Once their token has been obtained, the user can offer the token, which offers access to a specific resource for a given time period, to the resource.</dd>
+      <dt id="TV_parental">TV Parental Guidelines</dt>
+      <dd>A content rating system established by the U.S. Federal Communications Commission (FCC) for classifying TV shows based on the age appropriateness of the content.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="U">--U--</h2>
+    <dl>
+      <dt id="URL">URL</dt>
+      <dd>A Uniform Resource Locator (URL) is a way to identify a resource and its location on the Internet (for example http://www.brightcove.com).</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="V">--V--</h2>
+    <dl>
+      <dt id="vbr">Variable Bit Rate</dt>
+      <dd>A compression scheme in which each unit of input material can be compressed to different sizes. For MPEG-2 video, for example, this means that “easier” sequences (that is, with no motion) can compress to very small sizes, whereas “hard” sequences (with lots of motion and scene cuts) can compress to much larger sizes.</dd>
+      <dt id="video">Video</dt>
+      <dd>
+        <p>A single video title to play in a Video Cloud player. A video is based on a video file, which can start out as one of many supported video file formats, but which is transcoded into an H.264 file or FLV file if it isn't already in one of those formats. In addition, a video can include metadata such as:</p>
+        <ul>
+          <li>name</li>
+          <li>short description</li>
+          <li>long description</li>
+          <li>tags</li>
+          <li>video still image</li>
+          <li>poster image</li>
+          <li>bumper</li>
+          <li>logo overlay</li>
+        </ul>
+      </dd>
+      <dt id="video-cloud_studio">Video Cloud Studio</dt>
+      <dd>
+        <p>An Internet application for accessing and controlling the Video Cloud service. The Studio includes a series of modules for completing different tasks:</p>
+        <ul>
+          <li><strong>Upload</strong> - Upload videos to your Video Cloud account</li>
+          <li><strong>Media</strong> - Set video properties, organize videos using folders and publish videos</li>
+          <li><strong>Players</strong> - Create and style players and generate publishing code for players</li>
+          <li><strong>Analytics</strong> - View analytics on video and player performance</li>
+          <li><strong>Live</strong> - Create and stream live events</li>
+          <li><strong>Gallery</strong> - Create video portals for your video content</li>
+          <li><strong>Audience</strong> - Connects video analytics from Video Cloud to marketing automation platforms</li>
+          <li><strong>Social</strong> - Distribute videos to YouTube, Facebook and Twitter</li>
+        </ul>
+      </dd>
+      <dt id="video_editing_tools">Video Editing Tools</dt>
+      <dd>A software application for editing video files on personal computer.</dd>
+      <dt id="videoposter">Video Poster Image</dt>
+      <dd>A static image that displays in the playback area of a video player before or after video playback.</dd>
+      <dt id="VOD">VOD</dt>
+      <dd>Video on Demand. A protocol that allows for playback of distributed video files via streaming or progressive download at will—that is, on demand. As opposed to <a href="#livevideo"><em>live streaming video</em></a>.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="W">--W--</h2>
+    <dl>
+      <dt id="webvtt">WebVTT</dt>
+      <dd>Web Video Text Tracks format. WebVTT files provide captions or subtitles for video content, and also text video descriptions, chapters for content navigation, and more generally any form of metadata that is time-aligned with audio or video content. Brightcove Players use captions in WebVTT format.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="X">--X--</h2>
+    <dl>
+      <dt id="xlsx">XLSX</dt>
+      <dd>Microsoft Excel file. Analytics data can be exported in this format.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="Y">--Y--</h2>
+    <dl>
+      <dt id="">&nbsp;</dt>
+      <dd>&nbsp;</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="Z">--Z--</h2>
+    <dl>
+      <dt id="">&nbsp;</dt>
+      <dd>&nbsp;</dd>
+    </dl>
+  </section>
+</article>
+
+<!-- complete bootstrap layout -->
+    </div>
+    <div class="col-sm-2 right-side-bar">
+      
+      <nav class="right-side-nav" id="right_side_nav">
+        <h6 class="toc">Page Contents</h6>
+        <ul id="in_page_nav" class="list-none"></ul>
+      </nav>
+      
+    </div>
+  </div>
+</div>
+
+<hr>
+<div class="last-updated">
+  Page last updated on 03 May 2022
+</div>
+
+
+
+<footer class="bcls-footer" role="contentinfo">
+  <div class="row">
+    <div class="region region-footer-top-center col-md-12">
+      <nav role="navigation" aria-labelledby="block-brightcovesupport-menu" id="block-brightcovesupport" class="footer-menu">
+        <img src="https://support.brightcove.com/site-assets/images/site/SVG/COVE004_Brightcove_Logo_093020_RGB_KO.svg" class="bc-footer-logo" alt="Brightcove">
+
+        <h2>Brightcove Support</h2>
+
+        <ul class="menu">
+          <li>
+            <a href="https://status.brightcove.com">System Status</a>
+          </li>
+          <li>
+            <a href="https://supportportal.brightcove.com">Contact Support</a>
+          </li>
+          <li>
+            <a href="https://support.brightcove.com/">Documentation</a>
+          </li>
+        </ul>
+
+      </nav>
+      <nav role="navigation" aria-labelledby="block-training-menu" id="block-training" class="footer-menu">
+
+        <h2>Training</h2>
+
+        <ul class="menu">
+          <li>
+            <a href="https://studio.support.brightcove.com/training/online-training-courses.html">Online Courses</a>
+          </li>
+          <li>
+            <a href="https://studio.support.brightcove.com/training/register-training.html">Register for a course</a>
+          </li>
+          <li>
+            <a href="https://university.brightcove.com/">Brightcove University</a>
+          </li>
+        </ul>
+
+      </nav>
+      <nav role="navigation" aria-labelledby="block-brightcove-menu" class="footer-menu">
+
+        <h2>Brightcove</h2>
+
+        <ul class="menu">
+          <li>
+            <a href="https://www.brightcove.com">Brightcove.com</a>
+          </li>
+          <li>
+            <a href="https://supportportal.brightcove.com">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="row">
+    <div class="region region-footer-bottom-center col-md-12">
+      <div class="bcls-copyright footer-menu">
+        <table>
+          <tr>
+            <td>
+              <div id="bc_copyright" class="field field--name-field-copyright-year field--type-string field--label-hidden field--item" style="float: left;"> Brightcove Inc. All rights reserved.</div>
+            </td>
+            <td><a href="https://www.brightcove.com/en/legal/privacy">Privacy</a> | <a href="https://www.brightcove.com/en/terms-and-conditions">Terms &amp; Conditions</a></td>
+            <td>
+              <div class="gf-links-cols footer-menu">
+                <div class="gf-social"><a href="https://www.linkedin.com/company/16439" title="LinkedIn" target="_blank" class="gf-social-linkedin" style="margin-right: 1rem;"><i data-feather="linkedin" style="color:#8E9093;height: 1.25rem;"></i></a><a href="https://twitter.com/brightcove" title="Twitter" target="_blank" class="gf-social-twitter" style="margin-right: 1rem;"><i data-feather="twitter" style="color:#8E9093;height: 1.25rem;"></i></a><a href="https://www.facebook.com/Brightcove" title="Facebook" target="_blank" class="gf-social-facebook"><i data-feather="facebook" style="color:#8E9093;height: 1.25rem;"></i></a>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script translate="no">
+      
+  var searchBox = sajari.init({
+    mode: "search-box",
+    project: "1588255093746585379", // Set this to your project.
+    collection: "brightcove-documenation", // Set this to your collection.
+    instantPipeline: "autocomplete", // Pipeline used as you type
+    inputPlaceholder: "Search", // Input element placeholder
+    maxSuggestions: 5, // Maximum number of suggestions to show
+    attachSearchBox: document.getElementById("nav-search-box") // DOM element to attach to
+  });
+  
+    searchBox("sub", "pipeline.search-sent", function (_, query) {
+      window.location = "/search.html?q=" + encodeURIComponent(query.q);
+    });
+  
+
+</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/https-fix.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/setDate.js"></script>
+  
+  <script src="https://support.brightcove.com/site-assets/js/site/prism.js"></script>
+  
+  <script src="https://support.brightcove.com/site-assets/js/site/site.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/learning-paths/learning-paths.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/tabs.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/toc.js"></script>
+  <script src="/assets/js/sites_nav.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/bcls-utils.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/local-link-fix.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/sajari-reindex.js"></script>
+  <script src="/assets/js/feedback.js"></script>
+  
+  <script src="/assets/js/sajari-search-foot.js"></script>
+  
+  <!-- <script src="/assets/js/sajari-index.js"></script> -->
+  <style translate="no">
+    a.sj-paginator__page-number.sj-paginator__page-number--current.css-so0ov7 {
+      background-color: lightblue;
+    }
+    div.sj-tabs__tab {
+      margin-top: 3rem;
+      margin-left: .3rem;
+      border-top-left-radius: .4rem;
+      border-top-right-radius: .4rem;
+      background-color:#e8e8e8;
+    }
+
+    div.sj-tabs__tab.sj-tabs__tab--selected {
+      border-bottom-color: crimson;
+      background-color: #f8f8f8;
+    }
+
+    p.sj-results__result__description.css-p9jvyt {
+      font-size: 1rem;
+    }
+
+    .sj-result__text.css-31l7gp h3 {
+      color: navy;
+      font-size: 1.4rem;
+    }
+    </style>
+
+</body>
+
+</html>
