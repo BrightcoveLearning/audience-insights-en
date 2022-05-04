@@ -7,6 +7,8 @@
   docs:
     - name: 'Overview: Audience Insights'
       url: '/getting-started/overview-audience-insights.html'
+    - name: 'Audience Insights Glossary'
+      url: '/getting-started/audience-insights-glossary.html'
 - section:
   name: 'General Information'
   url: '/general/index.html'
