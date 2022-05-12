@@ -8,95 +8,10 @@ parent: Guides
 <article class="bcls-article">
     <summary>{{ page.description }}</summary>
 
-    <section class="bcls-section">
-        <h2 id="Introduction">Introduction</h2>
-        <p>Engagement hours allow you to quickly determine the engagement of the audience with the service
-            provided. With this information, it's possible to obtain data related to the hours viewed by plan, channel,
-            device, and viewing location.</p>
-    </section>
+    {% include s-audience-insights/engagement/engagement-hours-viewed-by-introduction.html %}
 
-    <section class="bcls-section">
-        <h2 id="Hours_viewed_by_category">Hours viewed by category</h2>
-        <p>Hours viewed metrics allow you to see the hours viewed by Plan, Channel, Device, and Viewing Location.
-        </p>
-        <p>In the <strong>Hours Viewed By</strong> section, click the <strong>plan</strong> button to select a category for your reporting data.</p>
-        <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Select week time span"
-                src="/assets/images/s-audience-insights-img/guides/engagement/hours-viewed-by-dropdown.png" />
-        </figure>
+    {% include s-audience-insights/engagement/engagement-hours-viewed-by-hours-viewed.html %}
+    
+    {% include s-audience-insights/engagement/engagement-hours-viewed-by-average-hours-viewed.html %}
 
-        <p>When you click the following options, different charts will be displayed.</p>
-        <ul>
-            <li>
-                <p><strong>Plan</strong></p>
-                <figure class="bcls-figure"><img class="bcls-image--no-border" width="60%" alt="Hours viewed by plan"
-                        src="/assets/images/s-audience-insights-img/guides/engagement/hours-viewed-by-plan.png" />
-                </figure>
-            </li>
-            <li>
-                <p><strong>Channel</strong></p>
-                <figure class="bcls-figure"><img class="bcls-image--no-border" width="60%" alt="Hours viewed by channel"
-                        src="/assets/images/s-audience-insights-img/guides/engagement/hours-viewed-by-channel.png" />
-                </figure>
-            </li>
-            <li>
-                <p><strong>Device</strong></p>
-                <figure class="bcls-figure"><img class="bcls-image--no-border" width="60%" alt="Hours viewed by device"
-                        src="/assets/images/s-audience-insights-img/guides/engagement/hours-viewed-by-device.png" />
-                </figure>
-            </li>
-            <li>
-                <p><strong>Viewing location</strong></p>
-                <figure class="bcls-figure"><img class="bcls-image--no-border" width="60%"
-                        alt="Hours viewed by location"
-                        src="/assets/images/s-audience-insights-img/guides/engagement/hours-viewed-by-viewing.png" />
-                </figure>
-            </li>
-        </ul>
-
-        <h3>Actions</h3>
-        <p>Here are the actions that are available for this graph.</p>
-        <ul>
-            <li>
-                <p>Click <img class="bcls-image--no-border" alt="Expand Icon"
-                        src="/assets/images/s-audience-insights-img/guides/lost-customers/download-button.png" /> to download data as PNG image
-                    or
-                    PDF.</p>
-                <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Download customer change data"
-                        src="/assets/images/s-audience-insights-img/guides/lost-customers/download-box2.png" />
-                </figure>
-                <li>
-                    <p>Click <img class="bcls-image--no-border" alt="Expand Icon"
-                            src="/assets/images/s-audience-insights-img/guides/engagement/zoom.png" /> to zoom in or out the graphic.</p> 
-
-            </li>
-        </ul>
-    </section>
-   
-    <section class="bcls-section">
-        <h2 id="Average_hours_viewed_by_category">Average hours viewed by category</h2>
-        <p>The <strong>average hours viewed per week by</strong> metrics provide a unified view of the hours viewed per user by plan, device, channel, and location with country or region.</p>
-        <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Customer summary scorecard"
-                src="/assets/images/s-audience-insights-img/guides/engagement/Average_hours_viewed_per_week_by.png" />
-            <figcaption class="bcls-caption--image">Average hours viewed per week by</figcaption>
-        </figure>
-        <p>Review usage trends data:</p>
-        <ul>
-            <li><strong>Unique viewers</strong> - Users with a view in the last copmplete week</li>
-            <li><strong>Overall average hours</strong> - Average of hours viewed per week and viewer</li>
-            <li><strong>Average hours viewed per week</strong> - Average of hours viewed per week in each category</li>
-        </ul>
-        <h3>Actions</h3>
-        <p>Here are the actions that are available for this section.</p>
-        <ul>
-            <li><p>Click <img class="bcls-image--no-border" alt="Expand Icon"
-                src="/assets/images/s-audience-insights-img/guides/engagement/avg-plan-button.png" /> to show the data by plan, device, channel, and location with country or region.</p>
-                <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Download customer change data"
-                    src="/assets/images/s-audience-insights-img/guides/engagement/options.png" />
-            </figure>
-            </li>
-            <li><p>Click <img class="bcls-image--no-border" alt="Overflow menu"
-                src="/assets/images/s-audience-insights-img/guides/engagement/show-more.png" /> to display the detailed chart.</p>
-            </li>
-        </ul>
-    </section>
 </article>
