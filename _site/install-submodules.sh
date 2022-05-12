@@ -1,3 +1,4 @@
+git submodule add https://github.com/BrightcoveLearning/s-scripts
 cd _includes
 git submodule add https://github.com/BrightcoveLearning/s-audience-insights
 cd ..

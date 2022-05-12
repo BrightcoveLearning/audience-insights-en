@@ -6,3 +6,6 @@
 	path = assets/images/s-audience-insights-img
 	url = https://github.com/BrightcoveLearning/s-audience-insights-img
   branch = main
+[submodule "s-scripts"]
+	path = s-scripts
+	url = https://github.com/BrightcoveLearning/s-scripts
