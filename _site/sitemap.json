@@ -250,22 +250,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/use-cases/retention/",
-      "oldURL": "/index"
-  },
-
-  {
       "newURL": "https://audience-insights.support.brightcove.com/support/",
       "oldURL": "/index"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/",
+      "newURL": "https://audience-insights.support.brightcove.com/integration/",
       "oldURL": "/index"
   },
 
@@ -280,22 +270,32 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integration/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/",
-      "oldURL": "/index"
-  },
-
-  {
       "newURL": "https://audience-insights.support.brightcove.com/use-cases/win-back/",
       "oldURL": "/index"
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/general/",
+      "oldURL": "/index"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/use-cases/acquisition/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/retention/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/guides/",
       "oldURL": "/index"
   },
 
@@ -325,12 +325,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/introducing-custom-insights.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/introducing-custom-insights.html",
       "oldURL": "/introducing-custom-insights"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/introducing-custom-insights.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/introducing-custom-insights.html",
       "oldURL": "/introducing-custom-insights"
   },
 
@@ -355,8 +355,13 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/support/known-issues.html",
-      "oldURL": "/known-issues"
+      "newURL": "https://audience-insights.support.brightcove.com/support/known-issues-ai.html",
+      "oldURL": "/known-issues-ai"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/support/known-issues-studio-brightcove-player-and-apis.html",
+      "oldURL": "/known-issues-studio-brightcove-player-and-apis"
   },
 
   {
@@ -400,22 +405,17 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/support/online-training-courses.html",
-      "oldURL": "/online-training-courses"
-  },
-
-  {
       "newURL": "https://audience-insights.support.brightcove.com/support/opening-case-with-brightcove-support.html",
       "oldURL": "/opening-case-with-brightcove-support"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/ott-benchmarks-%E2%80%93-how-do-you-compare-to-y.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/ott-benchmarks-%E2%80%93-how-do-you-compare-to-y.html",
       "oldURL": "/ott-benchmarks-–-how-do-you-compare-to-y"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/ott-benchmarks-%E2%80%93-how-do-you-compare-to-y.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/ott-benchmarks-%E2%80%93-how-do-you-compare-to-y.html",
       "oldURL": "/ott-benchmarks-–-how-do-you-compare-to-y"
   },
 
@@ -442,11 +442,6 @@
   {
       "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/redefining-engagement-for-ott-video-serv.html",
       "oldURL": "/redefining-engagement-for-ott-video-serv"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/support/register-training.html",
-      "oldURL": "/register-training"
   },
 
   {
@@ -500,12 +495,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/streamlining-workflow-with-automated-sub.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/streamlining-workflow-with-automated-sub.html",
       "oldURL": "/streamlining-workflow-with-automated-sub"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/streamlining-workflow-with-automated-sub.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/streamlining-workflow-with-automated-sub.html",
       "oldURL": "/streamlining-workflow-with-automated-sub"
   },
 
