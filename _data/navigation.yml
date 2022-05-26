@@ -63,6 +63,8 @@
   name: 'Integrations'
   url: '/integration/index.html'
   docs:
+    - name: 'Integrations Summary'
+      url: /integration/integration-summary.html
     - name: 'Braze'
       url: /integration/integration_spotlight_braze.html
     - name: 'Evergent'

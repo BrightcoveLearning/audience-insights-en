@@ -55,12 +55,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/content-as-context-for-better-segmentation.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/content-as-context-for-better-segmentation.html",
       "oldURL": "/content-as-context-for-better-segmentation"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/content-as-context-for-better-segmentation.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/content-as-context-for-better-segmentation.html",
       "oldURL": "/content-as-context-for-better-segmentation"
   },
 
@@ -170,12 +170,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/enhance-hubspot-campaigns-with-the-wicke.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/enhance-hubspot-campaigns-with-the-wicke.html",
       "oldURL": "/enhance-hubspot-campaigns-with-the-wicke"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/enhance-hubspot-campaigns-with-the-wicke.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/enhance-hubspot-campaigns-with-the-wicke.html",
       "oldURL": "/enhance-hubspot-campaigns-with-the-wicke"
   },
 
@@ -245,7 +245,7 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/insights/",
+      "newURL": "https://audience-insights.support.brightcove.com/guides/",
       "oldURL": "/index"
   },
 
@@ -255,17 +255,22 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integration/",
-      "oldURL": "/index"
-  },
-
-  {
       "newURL": "https://audience-insights.support.brightcove.com/getting-started/",
       "oldURL": "/index"
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/insights/",
+      "oldURL": "/index"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/use-cases/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/general/",
       "oldURL": "/index"
   },
 
@@ -280,12 +285,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/",
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/acquisition/",
       "oldURL": "/index"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/use-cases/acquisition/",
+      "newURL": "https://audience-insights.support.brightcove.com/integration/",
       "oldURL": "/index"
   },
 
@@ -295,13 +300,13 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/",
-      "oldURL": "/index"
+      "newURL": "https://audience-insights.support.brightcove.com/index_for_launch.html",
+      "oldURL": "/index_for_launch"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/index_for_launch.html",
-      "oldURL": "/index_for_launch"
+      "newURL": "https://audience-insights.support.brightcove.com/integration/integration-summary.html",
+      "oldURL": "/integration-summary"
   },
 
   {
@@ -380,12 +385,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/measuring-content-momentum.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/measuring-content-momentum.html",
       "oldURL": "/measuring-content-momentum"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/measuring-content-momentum.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/measuring-content-momentum.html",
       "oldURL": "/measuring-content-momentum"
   },
 
@@ -410,12 +415,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/ott-benchmarks-%E2%80%93-how-do-you-compare-to-y.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/ott-benchmarks-%E2%80%93-how-do-you-compare-to-y.html",
       "oldURL": "/ott-benchmarks-–-how-do-you-compare-to-y"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/ott-benchmarks-%E2%80%93-how-do-you-compare-to-y.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/ott-benchmarks-%E2%80%93-how-do-you-compare-to-y.html",
       "oldURL": "/ott-benchmarks-–-how-do-you-compare-to-y"
   },
 
@@ -520,12 +525,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/understanding-content-through-the-lens-o.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/understanding-content-through-the-lens-o.html",
       "oldURL": "/understanding-content-through-the-lens-o"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/understanding-content-through-the-lens-o.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/understanding-content-through-the-lens-o.html",
       "oldURL": "/understanding-content-through-the-lens-o"
   },
 
