@@ -9,11 +9,10 @@ parent: Guides
   <section class="bcls-section" id="page_wrapper">
     {% for item in site.data.navigation %}
       {% if item.name == page.parent %}
-      <section class="flex-container">
+      <ul>
         {% for entry in item.docs %}
           {% if entry.name == page.title %}
             {% for subentry in entry.docs %}
-              <div>
                 {% if subentry.docs %}
                     <h3><a href="{{ subentry.url }}">{{ subentry.name }}</a></h3>
                     <ul class="landing-page-item">
@@ -22,13 +21,12 @@ parent: Guides
                       {% endfor %}
                     </ul>
                 {% else %}
-                  <div><a href="{{ subentry.url }}">{{ subentry.name }}</a></div>
+                  <li><a href="{{ subentry.url }}">{{ subentry.name }}</a></li>
                 {% endif %}
-              </div>
             {% endfor %}
           {% endif %}
         {% endfor %}
-      </section>
+      </ul>
       {% endif %}
     {% endfor %}
   </section>
