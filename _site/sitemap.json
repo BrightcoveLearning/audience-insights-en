@@ -250,12 +250,17 @@
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/guides/customers/",
+      "oldURL": "/index"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/guides/conversions/",
       "oldURL": "/index"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/insights/",
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/retention/",
       "oldURL": "/index"
   },
 
@@ -265,12 +270,47 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/use-cases/acquisition/",
+      "newURL": "https://audience-insights.support.brightcove.com/integration/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/support/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/guides/content/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/general/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/guides/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/win-back/",
       "oldURL": "/index"
   },
 
   {
       "newURL": "https://audience-insights.support.brightcove.com/getting-started/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/insights/",
       "oldURL": "/index"
   },
 
@@ -285,47 +325,7 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/use-cases/retention/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/integration/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/use-cases/win-back/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/general/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/content/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/support/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/customers/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/",
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/acquisition/",
       "oldURL": "/index"
   },
 
@@ -360,12 +360,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/introducing-custom-insights.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/introducing-custom-insights.html",
       "oldURL": "/introducing-custom-insights"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/introducing-custom-insights.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/introducing-custom-insights.html",
       "oldURL": "/introducing-custom-insights"
   },
 
@@ -397,6 +397,11 @@
   {
       "newURL": "https://audience-insights.support.brightcove.com/support/known-issues-studio-brightcove-player-and-apis.html",
       "oldURL": "/known-issues-studio-brightcove-player-and-apis"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/insights/linear-insights.html",
+      "oldURL": "/linear-insights"
   },
 
   {
