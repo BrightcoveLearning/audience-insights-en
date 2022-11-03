@@ -20,12 +20,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/automating-smarter-campaigns-with-user-s.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/automating-smarter-campaigns-with-user-s.html",
       "oldURL": "/automating-smarter-campaigns-with-user-s"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/automating-smarter-campaigns-with-user-s.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/automating-smarter-campaigns-with-user-s.html",
       "oldURL": "/automating-smarter-campaigns-with-user-s"
   },
 
@@ -45,6 +45,11 @@
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/guides/linear/channel-consuption.html",
+      "oldURL": "/channel-consuption"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/comparing-live-linear-vs-vod-content.html",
       "oldURL": "/comparing-live-linear-vs-vod-content"
   },
@@ -55,12 +60,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/content-as-context-for-better-segmentation.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/content-as-context-for-better-segmentation.html",
       "oldURL": "/content-as-context-for-better-segmentation"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/content-as-context-for-better-segmentation.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/content-as-context-for-better-segmentation.html",
       "oldURL": "/content-as-context-for-better-segmentation"
   },
 
@@ -170,12 +175,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/enhance-hubspot-campaigns-with-the-wicke.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/enhance-hubspot-campaigns-with-the-wicke.html",
       "oldURL": "/enhance-hubspot-campaigns-with-the-wicke"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/enhance-hubspot-campaigns-with-the-wicke.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/enhance-hubspot-campaigns-with-the-wicke.html",
       "oldURL": "/enhance-hubspot-campaigns-with-the-wicke"
   },
 
