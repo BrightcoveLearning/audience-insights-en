@@ -74,6 +74,12 @@
     - name: 'Distribution'
       url: '/guides/distribution/distribution.html'
 - section:
+  name: 'Insights'
+  url: '/insights/index.html'
+  docs:
+    - name: 'Linear Insights'
+      url: /insights/linear-insights.html
+- section:
   name: 'Integrations'
   url: '/integration/index.html'
   docs:
