@@ -4,6 +4,8 @@
 - section: 
   name: 'Getting Started'
   url: '/getting-started/index.html'
+  icon: fa-regular fa-map-pin
+  description: Guides to help you get started with Audience Insights.
   docs:
     - name: 'Overview: Audience Insights'
       url: '/getting-started/overview-audience-insights.html'
@@ -12,6 +14,8 @@
 - section:
   name: 'General Information'
   url: '/general/index.html'
+  icon: fa-regular fa-circle-info
+  description: General topics relating to Audience Insights.
   docs:
     - name: 'Automating Smarter Campaigns with User Segments'
       url: /general/automating-smarter-campaigns-with-user-s.html
@@ -38,6 +42,8 @@
 - section: 
   name: 'Guides'
   url: '/guides/index.html'
+  icon: fa-light fa-signs-post
+  description: Guides to working with the various parts of Audience Insights.
   docs:
     - name: Customer Summary
       url: '/guides/summary/customer-summary.html'
