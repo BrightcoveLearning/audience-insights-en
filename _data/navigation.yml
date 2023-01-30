@@ -43,7 +43,7 @@
   name: 'Guides'
   url: '/guides/index.html'
   icon: fa-light fa-signs-post
-  description: Guides to working with the various parts of Audience Insights.
+  description: Guides to working with each section of Audience Insights data.
   docs:
     - name: Customer Summary
       url: '/guides/summary/customer-summary.html'
@@ -82,12 +82,16 @@
 - section:
   name: 'Insights'
   url: '/insights/index.html'
+  icon: fa-regular fa-chart-simple
+  description: This section provides some deep dives in to key metrics for managing your business.
   docs:
     - name: 'Linear Insights'
       url: /insights/linear-insights.html
 - section:
   name: 'Integrations'
   url: '/integration/index.html'
+  icon: fa-regular fa-puzzle-piece-simple"
+  description: This section contains topics about partner integrations.
   docs:
     - name: 'Integrations Summary'
       url: /integration/integration-summary.html
@@ -102,6 +106,7 @@
 - section: 
   name: 'Use Cases'
   url: '/use-cases/index.html'
+  icon: fa-light fa-house-turret
   docs:
     - name: "Acquisition"
       url: '/use-cases/acquisition/index.html'
