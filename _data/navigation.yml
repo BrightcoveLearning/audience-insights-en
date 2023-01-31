@@ -107,6 +107,7 @@
   name: 'Use Cases'
   url: '/use-cases/index.html'
   icon: fa-light fa-house-turret
+  description: Learn about specific use cases for Audience Insights.
   docs:
     - name: "Acquisition"
       url: '/use-cases/acquisition/index.html'
@@ -143,6 +144,8 @@
 - section: 
   name: 'Support'
   url: '/support/'
+  icon: fa-regular fa-comments-question-check
+  description: Learn how to get help from Brightcove Support.
   docs:
     - name: 'Contact Sales'
       url: '/support/contact-sales.html'

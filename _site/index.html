@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en-US">
     <head>
         <title>Brightcove Audience Insights Documentation</title>
         
@@ -8,25 +8,24 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
-        
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/s-site-assets-favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/s-site-assets-favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/s-site-assets-favicons/favicon-16x16.png">
+        <link rel="manifest" href="/assets/s-site-assets-favicons/site.webmanifest">  
+
         <!-- Google Font -->
         <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet"> -->
         <link rel="stylesheet" href="/assets/s-site-assets-stylesheets/fonts/articulat-site.css">
-        <link href="/assets/s-site-assets-stylesheets/fonts/source-code-pro.css" rel="stylesheet">
         
         <!-- FontAwesome JS-->
         <script src="https://kit.fontawesome.com/d67c74a882.js" crossorigin="anonymous"></script>  
-        
-        <!-- Plugins CSS -->
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
-        <link rel="stylesheet" href="/assets/s-site-assets-template-stylesheets/plugins/simplelightbox/simple-lightbox.min.css">
+
+        <!-- <script defer src="/assets/s-site-assets-template-stylesheets/fontawesome/js/all.min.js"></script> -->
 
         <!-- Theme CSS -->  
         <link id="theme-style" rel="stylesheet" href="/assets/s-site-assets-template-stylesheets/css/theme.css">
-        <link rel="stylesheet" href="/assets/s-site-assets-stylesheets/prism.css">
         <link rel="stylesheet" href="/assets/s-site-assets-template-stylesheets/custom-css/styles.css">
-
-
+        
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-XBJC11HF8Z"></script>
         <script translate="no">
@@ -36,14 +35,12 @@
 
         gtag('config', 'G-XBJC11HF8Z');
         </script>
-        <script src="/assets/s-site-assets-scripts/sajari-head.js"></script>
+        <script src="assets/s-site-assets-scripts/sajari-head.js"></script>
         <script src="https://unpkg.com/feather-icons"></script>
 
     </head> 
 
-    <body class="docs-page">
-        
-
+    <body> 
 <header class="header fixed-top">
   <div class="branding docs-branding">
     <div class="container-fluid position-relative py-2">
@@ -66,107 +63,103 @@
 
       <div class="docs-top-utilities d-flex justify-content-end
         align-items-center">
-        
-        <!-- Search bar -->
-        <div id="nav-search-box" class="top-search-box d-none d-lg-flex" style="margin-right: 10px ;"></div>
-
-<select id="site_select" class="form-select select-focus" style="width:
+        <select id="site_select" class="form-select select-focus" style="width:
           20%; margin-right: 10px;" translate="no">
           <option value="">Other Brightcove Docs</option>
           
           
-          <option value="https://support.brightcove.com" translate="no">Documentation Home</option>
+          <option value="https://support.brightcove.com">Documentation Home</option>
           
           
           
-          <option value="https://support.brightcove.com/" translate="no">-- VIDEO CLOUD --</option>
+          <option value="https://support.brightcove.com/">-- VIDEO CLOUD --</option>
           
           
           
-          <option value="https://studio.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Studio</option>
+          <option value="https://studio.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Studio</option>
           
           
           
-          <option value="https://mstudio.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Marketing Studio</option>
+          <option value="https://mstudio.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Marketing Studio</option>
           
           
           
-          <option value="https://player.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Player Development</option>
+          <option value="https://player.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Player Development</option>
           
           
           
-          <option value="https://apis.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Platform APIs</option>
+          <option value="https://apis.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Platform APIs</option>
           
           
           
-          <option value="https://sdks.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Device SDKs</option>
+          <option value="https://sdks.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Device SDKs</option>
           
           
           
-          <option value="https://integrations.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Integrations and CMS Connectors</option>
+          <option value="https://integrations.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Integrations and CMS Connectors</option>
           
           
           
-          <option value="https://general.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud General Information</option>
+          <option value="https://general.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud General Information</option>
           
           
           
-          <option value="https://support.brightcove.com/" translate="no">-- VIDEO ESSENTIALS --</option>
+          <option value="https://support.brightcove.com/">-- VIDEO ESSENTIALS --</option>
           
           
           
-          <option value="https://audience-insights.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Audience Insights</option>
+          <option value="https://audience-insights.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Audience Insights</option>
           
           
           
-          <option value="https://beacon-help.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Beacon Studio</option>
+          <option value="https://beacon-help.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Beacon Studio</option>
           
           
           
-          <option value="https://beacon.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Beacon Classic</option>
+          <option value="https://beacon.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Beacon Classic</option>
           
           
           
-          <option value="https://corptv.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;CorpTV</option>
+          <option value="https://corptv.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;CorpTV</option>
           
           
           
-          <option value="https://live.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Live</option>
+          <option value="https://live.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Live</option>
           
           
           
-          <option value="https://zencoder.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Zencoder</option>
+          <option value="https://zencoder.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Zencoder</option>
           
           
           
-          <option value="https://support.brightcove.com/" translate="no">-- VIDEO CLOUD ADD-ONS --</option>
+          <option value="https://support.brightcove.com/">-- VIDEO CLOUD ADD-ONS --</option>
           
           
           
-          <option value="https://gallery.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Gallery</option>
+          <option value="https://gallery.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Gallery</option>
           
           
           
-          <option value="https://studio.support.brightcove.com/social/index.html" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Social</option>
+          <option value="https://studio.support.brightcove.com/social/index.html">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Social</option>
           
           
           
-          <option value="https://interactivity.support.brightcove.com/index.html" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Interactivity</option>
+          <option value="https://interactivity.support.brightcove.com/index.html">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Interactivity</option>
           
           
           
-          <option value="https://ssai.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove SSAI</option>
+          <option value="https://ssai.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove SSAI</option>
           
           
           
-          <option value="https://campaign.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Campaign</option>
+          <option value="https://campaign.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Campaign</option>
           
           
         </select>
 
         <select id="language_select" class="form-select select-focus" style="width: 10%;"
           onchange="doGTranslate(this);" translate="no">
-          <!-- <option value="">Select Language</option> -->
+          <option value="">Select Language</option>
           <option value="en|en" translate="No">English</option>
           <option value="en|zh-TW" translate="No">繁體中文</option>
           <option value="en|fr" translate="No">Français</option>
@@ -175,7 +168,6 @@
           <option value="en|ko" translate="No">한국어</option>
           <option value="en|es" translate="No">Español</option>
         </select>
-
         <script translate="no">
           /* <![CDATA[ */
           function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.hostname.split('.')[0];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='en';location.href=location.protocol+'//'+(lang == 'en' ? '' : lang+'.')+location.hostname.replace('www.', '').replace(RegExp('^' + plang + '\\.'), '')+location.pathname+location.search;}
@@ -184,14 +176,15 @@
       </div>
     </div>
   </div>
-</header><!--//header-->
+</header>
 
 <div class="docs-wrapper">
   <div id="docs-sidebar" class="docs-sidebar" style="padding-right: 15px;">
-    <div id="nav-search-box" class="top-search-box d-lg-none p-3"></div>
+    <!-- <div id="nav-search-box" class="top-search-box d-lg-none p-3" style="margin-left: 5px;"></div> -->
     <div class="row">
       
-        <div id="side_nav" style="margin-left: 1em; display: inline-block; border-right: 1px solid #e5e5e6; padding-right: 1em;">
+        <div id="side_nav" style="margin-left: 1em;display:
+          inline-block;border-right: 1px solid #e5e5e6;padding-right: 1em;">
           
           <nav class="docs-nav sidenav" aria-label="Main">
             <ul class="site-nav" style="list-style-type: none;">
@@ -637,167 +630,156 @@
   </div>
 </div>
 
-<div style="margin-top: 20px;">
-  <div class="docs-content" style="padding-bottom: 0px;">
+<div class="page-header theme-bg-dark py-5 text-center position-relative"
+    style="background:#4EA9D1;">
+    <div class="theme-bg-shapes-right"></div>
+    <div class="theme-bg-shapes-left"></div>
     <div class="container">
-      <div class="docs-overview">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            
-            <li class="breadcrumb-item"><a class="theme-link" href="/">Home</a></li>
-            
-          </ol>
-        </nav>
-      </div>
+        <!-- <h1 class="page-heading single-col-max mx-auto" style="color: transparent; -webkit-text-stroke: 2px white; text-transform:uppercase;">Video Cloud Studio
+            </h1> -->
+        <h1 class="page-heading single-col-max mx-auto">Brightcove Audience Insights Documentation</h1>
+        <div class="page-intro single-col-max mx-auto">Brightcove Audience Insights provides deep insights into your viewers, with metrics on subscribers, registered users, and general users to help you run your business effectively.</div>
+            <!-- Search bar -->
+        <div id="nav-search-box" class="main-search-box pt-3 d-block mx-auto"></div>
     </div>
-  </div>
-</div>
-<div class="docs-content">
+</div><!--//page-header-->
+<!-- begin main contents -->
+<div class="page-content">
+    <div class="container">
+      <div class="docs-overview py-5">
+  
+<!-- main content -->
+<div class="page-content">
   <div class="container">
     <div class="docs-overview py-5">
-      
-      
-<article class="landing-page-wrapper">
-  <section class="landing-page-header" id="landing_page_header">
-    <h1>Brightcove Audience Insights Documentation</h1>
-
-    <p>Brightcove Audience Insights provides deep insights into your viewers, with metrics on subscribers, registered users, and general users to help you run your business effectively.</p>
-  </section>
-  <section class="card-wrapper">
-    
-    <section class="bcls-card-small" onclick="window.location.href='/getting-started/index.html'">
+      <div class="row justify-content-center">
 
 
-      <div class="card-content">
-        <h2>Getting Started</h2>
-        <ul>
-          
-          <li><a href="/getting-started/overview-audience-insights.html">Overview: Audience Insights</a></li>
-          
-          <li><a href="/getting-started/audience-insights-glossary.html">Audience Insights Glossary</a></li>
-          
-        </ul>
-        <p style="font-size:small;"><a href="/getting-started/index.html">View all...</a></p>
-      </div>
-    </section>
-    
-    <section class="bcls-card-small" onclick="window.location.href='/general/index.html'">
+        
+        <div class="col-12 col-lg-4 py-3">
+          <div class="card-hover card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title mb-3">
+                <span class="span-icon card-icon-holder icon-theme me-2">
+                  <i class="fa-regular fa-map-pin"></i>
+                </span><!--//card-icon-holder-->
+                <span class="card-title-text">Getting Started</span>
+              </h5>
+              <div class="card-text">
+                Guides to help you get started with Audience Insights.
+              </div>
+              <a class="card-link-mask" href="/getting-started/index.html"></a>
+            </div><!--//card-body-->
+          </div><!--//card-->
+        </div><!--//col-->
+        
+        <div class="col-12 col-lg-4 py-3">
+          <div class="card-hover card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title mb-3">
+                <span class="span-icon card-icon-holder icon-theme me-2">
+                  <i class="fa-regular fa-circle-info"></i>
+                </span><!--//card-icon-holder-->
+                <span class="card-title-text">General Information</span>
+              </h5>
+              <div class="card-text">
+                General topics relating to Audience Insights.
+              </div>
+              <a class="card-link-mask" href="/general/index.html"></a>
+            </div><!--//card-body-->
+          </div><!--//card-->
+        </div><!--//col-->
+        
+        <div class="col-12 col-lg-4 py-3">
+          <div class="card-hover card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title mb-3">
+                <span class="span-icon card-icon-holder icon-theme me-2">
+                  <i class="fa-light fa-signs-post"></i>
+                </span><!--//card-icon-holder-->
+                <span class="card-title-text">Guides</span>
+              </h5>
+              <div class="card-text">
+                Guides to working with each section of Audience Insights data.
+              </div>
+              <a class="card-link-mask" href="/guides/index.html"></a>
+            </div><!--//card-body-->
+          </div><!--//card-->
+        </div><!--//col-->
+        
+        <div class="col-12 col-lg-4 py-3">
+          <div class="card-hover card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title mb-3">
+                <span class="span-icon card-icon-holder icon-theme me-2">
+                  <i class="fa-regular fa-chart-simple"></i>
+                </span><!--//card-icon-holder-->
+                <span class="card-title-text">Insights</span>
+              </h5>
+              <div class="card-text">
+                This section provides some deep dives in to key metrics for managing your business.
+              </div>
+              <a class="card-link-mask" href="/insights/index.html"></a>
+            </div><!--//card-body-->
+          </div><!--//card-->
+        </div><!--//col-->
+        
+        <div class="col-12 col-lg-4 py-3">
+          <div class="card-hover card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title mb-3">
+                <span class="span-icon card-icon-holder icon-theme me-2">
+                  <i class="fa-regular fa-puzzle-piece-simple""></i>
+                </span><!--//card-icon-holder-->
+                <span class="card-title-text">Integrations</span>
+              </h5>
+              <div class="card-text">
+                This section contains topics about partner integrations.
+              </div>
+              <a class="card-link-mask" href="/integration/index.html"></a>
+            </div><!--//card-body-->
+          </div><!--//card-->
+        </div><!--//col-->
+        
+        <div class="col-12 col-lg-4 py-3">
+          <div class="card-hover card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title mb-3">
+                <span class="span-icon card-icon-holder icon-theme me-2">
+                  <i class="fa-light fa-house-turret"></i>
+                </span><!--//card-icon-holder-->
+                <span class="card-title-text">Use Cases</span>
+              </h5>
+              <div class="card-text">
+                Learn about specific use cases for Audience Insights.
+              </div>
+              <a class="card-link-mask" href="/use-cases/index.html"></a>
+            </div><!--//card-body-->
+          </div><!--//card-->
+        </div><!--//col-->
+        
+        <div class="col-12 col-lg-4 py-3">
+          <div class="card-hover card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title mb-3">
+                <span class="span-icon card-icon-holder icon-theme me-2">
+                  <i class="fa-regular fa-comments-question-check"></i>
+                </span><!--//card-icon-holder-->
+                <span class="card-title-text">Support</span>
+              </h5>
+              <div class="card-text">
+                Learn how to get help from Brightcove Support.
+              </div>
+              <a class="card-link-mask" href="/support/"></a>
+            </div><!--//card-body-->
+          </div><!--//card-->
+        </div><!--//col-->
+        
+      </div><!--//row-->
+    </div><!--//container-->
+  </div><!--//container-->
+</div><!--//page-content-->
 
-
-      <div class="card-content">
-        <h2>General Information</h2>
-        <ul>
-          
-          <li><a href="/general/automating-smarter-campaigns-with-user-s.html">Automating Smarter Campaigns with User Segments</a></li>
-          
-          <li><a href="/general/audience-insights-data-security.html">Brightcove Audience Insights and Data Security</a></li>
-          
-          <li><a href="/general/calculating-lifetime-value-in-a-svod-bus.html">Calculating Lifetime Value in a SVoD Business</a></li>
-          
-          <li><a href="/general/content-as-context-for-better-segmentation.html">Content as Context for Better Segmentation</a></li>
-          
-        </ul>
-        <p style="font-size:small;"><a href="/general/index.html">View all...</a></p>
-      </div>
-    </section>
-    
-    <section class="bcls-card-small" onclick="window.location.href='/guides/index.html'">
-
-
-      <div class="card-content">
-        <h2>Guides</h2>
-        <ul>
-          
-          <li><a href="/guides/summary/customer-summary.html">Customer Summary</a></li>
-          
-          <li><a href="/guides/customers/current-customers.html">Customers</a></li>
-          
-          <li><a href="/guides/conversions/conversions.html">Conversions</a></li>
-          
-          <li><a href="/guides/lost-customers/lost-customers.html">Lost Customers</a></li>
-          
-        </ul>
-        <p style="font-size:small;"><a href="/guides/index.html">View all...</a></p>
-      </div>
-    </section>
-    
-    <section class="bcls-card-small" onclick="window.location.href='/insights/index.html'">
-
-
-      <div class="card-content">
-        <h2>Insights</h2>
-        <ul>
-          
-          <li><a href="/insights/linear-insights.html">Linear Insights</a></li>
-          
-        </ul>
-        <p style="font-size:small;"><a href="/insights/index.html">View all...</a></p>
-      </div>
-    </section>
-    
-    <section class="bcls-card-small" onclick="window.location.href='/integration/index.html'">
-
-
-      <div class="card-content">
-        <h2>Integrations</h2>
-        <ul>
-          
-          <li><a href="/integration/integration-summary.html">Integrations Summary</a></li>
-          
-          <li><a href="/integration/integration_spotlight_braze.html">Braze</a></li>
-          
-          <li><a href="/integration/integration_spotlight_evergent.html">Evergent</a></li>
-          
-          <li><a href="/integration/integration_spotlight_hubspot.html">HubSpot</a></li>
-          
-        </ul>
-        <p style="font-size:small;"><a href="/integration/index.html">View all...</a></p>
-      </div>
-    </section>
-    
-    <section class="bcls-card-small" onclick="window.location.href='/use-cases/index.html'">
-
-
-      <div class="card-content">
-        <h2>Use Cases</h2>
-        <ul>
-          
-          <li><a href="/use-cases/acquisition/index.html">Acquisition</a></li>
-          
-          <li><a href="/use-cases/retention/index.html">Retention</a></li>
-          
-          <li><a href="/use-cases/win-back/index.html">Win-back</a></li>
-          
-        </ul>
-        <p style="font-size:small;"><a href="/use-cases/index.html">View all...</a></p>
-      </div>
-    </section>
-    
-    <section class="bcls-card-small" onclick="window.location.href='/support/'">
-
-
-      <div class="card-content">
-        <h2>Support</h2>
-        <ul>
-          
-          <li><a href="/support/contact-sales.html">Contact Sales</a></li>
-          
-          <li><a href="/support/viewing-brightcove-system-status-page.html">Viewing the Brightcove System Status Page</a></li>
-          
-          <li><a href="/support/known-issues-studio-brightcove-player-and-apis.html">Known Issues</a></li>
-          
-          <li><a href="/support/opening-case-with-brightcove-support.html">Opening a Support Case</a></li>
-          
-        </ul>
-        <p style="font-size:small;"><a href="/support/">View all...</a></p>
-      </div>
-    </section>
-    
-  </section>
-</article>
-<!-- <div class="col-sm-2 right-side-bar" style="display: inline-block;max-width: 20%;"> -->
-  
-<!-- </div> -->
 </div>
 </div>
 </div>
@@ -860,8 +842,8 @@
   </div>
 </div>
 
-
 <script translate="no">
+      
   var searchBox = sajari.init({
     mode: "search-box",
     project: "1588255093746585379", // Set this to your project.
@@ -892,77 +874,73 @@
   
   </script>
   
-  <!-- Javascript -->          
-  <script src="/assets/s-site-assets-template-stylesheets/plugins/popper.min.js"></script>
-  <script src="/assets/s-site-assets-template-stylesheets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    <!-- Javascript -->          
+    <script src="/assets/s-site-assets-template-stylesheets/plugins/popper.min.js"></script>
+    <script src="/assets/s-site-assets-template-stylesheets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="/assets/s-site-assets-template-stylesheets/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="/assets/s-site-assets-template-stylesheets/js/highlight-custom.js"></script> 
+    <script src="/assets/s-site-assets-template-stylesheets/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="/assets/s-site-assets-template-stylesheets/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="/assets/s-site-assets-template-stylesheets/js/docs.js"></script> 
+    
+    <!-- original footer components -->
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    
+    <script src="/assets/s-site-assets-scripts/https-fix.js"></script>
+    <script src="/assets/s-site-assets-scripts/setDate.js"></script>
+    <script src="/assets/s-site-assets-scripts/selector.js"></script>
+    
+    <script src="/assets/s-site-assets-scripts/prism.js"></script>
+    
+    <script src="/assets/s-site-assets-scripts/site.js"></script>
+    <script src="https://support.brightcove.com/site-assets/js/learning-paths/learning-paths.js"></script>
+    <!-- <script src="/assets/s-site-assets-scripts/site.js"></script> -->
+    <script src="/assets/s-site-assets-scripts/tabs.js"></script>
+    <!-- <script src="/assets/s-site-assets-scripts/hide-nav.js"></script> -->
+    <script src="/assets/js/sites_nav.js"></script>
+    <script src="/assets/s-site-assets-scripts/bcls-utils.js"></script>
+    <script src="/assets/s-site-assets-scripts/local-link-fix.js"></script>
+    <script src="/assets/s-site-assets-scripts/sajari-reindex.js"></script>
+    <script src="/assets/js/feedback.js"></script>
+    
+    <script src="/assets/s-site-assets-scripts/sajari-search-foot.js"></script>
+    
+    <script translate="no">
+      feather.replace()
+    </script>
+    <!-- <script src="/assets/js/sajari-index.js"></script> -->
+    <script src="/assets/s-site-assets-scripts/in-app.js"></script>
+    <style translate="no">
+      a.sj-paginator__page-number.sj-paginator__page-number--current.css-so0ov7 {
+        background-color: lightblue;
+      }
+      div.sj-tabs__tab {
+        margin-top: 3rem;
+        margin-left: .3rem;
+        border-top-left-radius: .4rem;
+        border-top-right-radius: .4rem;
+        background-color:#e8e8e8;
+      }
 
-  <!-- Page Specific JS -->
-  <script src="/assets/s-site-assets-template-stylesheets/plugins/smoothscroll.min.js"></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script> -->
-  <!-- <script src="/assets/s-site-assets-template-stylesheets/js/highlight-custom.js"></script>  -->
-  <script src="/assets/s-site-assets-template-stylesheets/plugins/simplelightbox/simple-lightbox.min.js"></script>      
-  <script src="/assets/s-site-assets-template-stylesheets/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
-  <script src="/assets/s-site-assets-template-stylesheets/js/docs.js"></script> 
+      div.sj-tabs__tab.sj-tabs__tab--selected {
+        border-bottom-color: crimson;
+        background-color: #f8f8f8;
+      }
 
-  <!-- original footer components -->
+      p.sj-results__result__description.css-p9jvyt {
+        font-size: 1rem;
+      }
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-
-  <script src="/assets/s-site-assets-scripts/https-fix.js"></script>
-  <script src="/assets/s-site-assets-scripts/setDate.js"></script>
-  <script src="/assets/s-site-assets-scripts/selector.js"></script>
-  
-  <script src="/assets/s-site-assets-scripts/prism.js"></script>
-  <script src="/assets/s-site-assets-scripts/prism-normalize.js"></script>
-  
-  <script src="/assets/s-site-assets-scripts/site.js"></script>
-  <script src="https://support.brightcove.com/site-assets/js/learning-paths/learning-paths.js"></script>
-  <!-- <script src="/assets/s-site-assets-scripts/site.js"></script> -->
-  <script src="/assets/s-site-assets-scripts/tabs.js"></script>
-  
-  <script src="/assets/s-site-assets-scripts/toc-new-template.js"></script>
-  
-  <script src="/assets/js/sites_nav.js"></script>
-  <script src="/assets/s-site-assets-scripts/bcls-utils.js"></script>
-  <script src="/assets/s-site-assets-scripts/local-link-fix.js"></script>
-  <script src="/assets/s-site-assets-scripts/sajari-reindex.js"></script>
-  <script src="/assets/js/feedback.js"></script>
-  
-  <script src="/assets/s-site-assets-scripts/sajari-search-foot.js"></script>
-  
-  <script translate="no">
-    feather.replace()
-  </script>
-  <!-- <script src="/assets/js/sajari-index.js"></script> -->
-  <script src="/assets/s-site-assets-scripts/in-app.js"></script>
-  <style translate="no">
-    a.sj-paginator__page-number.sj-paginator__page-number--current.css-so0ov7 {
-      background-color: lightblue;
-    }
-    div.sj-tabs__tab {
-      margin-top: 3rem;
-      margin-left: .3rem;
-      border-top-left-radius: .4rem;
-      border-top-right-radius: .4rem;
-      background-color:#e8e8e8;
-    }
-
-    div.sj-tabs__tab.sj-tabs__tab--selected {
-      border-bottom-color: crimson;
-      background-color: #f8f8f8;
-    }
-
-    p.sj-results__result__description.css-p9jvyt {
-      font-size: 1rem;
-    }
-
-    .sj-result__text.css-31l7gp h3 {
-      color: navy;
-      font-size: 1.4rem;
-    }
-    </style>
+      .sj-result__text.css-31l7gp h3 {
+        color: navy;
+        font-size: 1.4rem;
+      }
+      </style>
 
   </body>
 </html> 
