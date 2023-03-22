@@ -103,6 +103,17 @@
       url: /integration/integration_spotlight_hubspot.html
     - name: 'Vimeo'
       url: /integration/integration_spotlight_vimeo.html
+    - name: Salesforce Sales Cloud
+      url: /integration/salesforce-sales-cloud/index.html
+      docs:
+        - name: 'Overview: Salesforce Sales Cloud Integration'
+          url: /integration/salesforce-sales-cloud/overview-sfsc-integration.html
+        - name: Salesforce Connected App Setup
+          url: /integration/salesforce-sales-cloud/salesforce-connected-app-setup.html
+        - name: Salesforce Properties Setup
+          url: /integration/salesforce-sales-cloud/salesforce-properties-setup.html
+        - name: Audience Insights Salesforce Integration Setup
+          url: /integration/salesforce-sales-cloud/audience-insights-publish-integration-setup.html
 - section: 
   name: 'Use Cases'
   url: '/use-cases/index.html'
