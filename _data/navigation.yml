@@ -89,31 +89,31 @@
       url: /insights/linear-insights.html
 - section:
   name: 'Integrations'
-  url: '/integration/index.html'
+  url: '/integrations/index.html'
   icon: "fa-regular fa-puzzle-piece-simple"
   description: This section contains topics about partner integrations.
   docs:
     - name: 'Integrations Summary'
-      url: /integration/integration-summary.html
+      url: /integrations/integration-summary.html
     - name: 'Braze'
-      url: /integration/integration_spotlight_braze.html
+      url: /integrations/integration_spotlight_braze.html
     - name: 'Evergent'
-      url: /integration/integration_spotlight_evergent.html
+      url: /integrations/integration_spotlight_evergent.html
     - name: 'HubSpot'
-      url: /integration/integration_spotlight_hubspot.html
+      url: /integrations/integration_spotlight_hubspot.html
     - name: 'Vimeo'
-      url: /integration/integration_spotlight_vimeo.html
+      url: /integrations/integration_spotlight_vimeo.html
     - name: Salesforce Sales Cloud
-      url: /integration/salesforce-sales-cloud/index.html
+      url: /integrations/salesforce-sales-cloud/index.html
       docs:
         - name: 'Overview: Salesforce Sales Cloud Integration'
-          url: /integration/salesforce-sales-cloud/overview-sfsc-integration.html
+          url: /integrations/salesforce-sales-cloud/overview-sfsc-integration.html
         - name: Salesforce Connected App Setup
-          url: /integration/salesforce-sales-cloud/salesforce-connected-app-setup.html
+          url: /integrations/salesforce-sales-cloud/salesforce-connected-app-setup.html
         - name: Salesforce Properties Setup
-          url: /integration/salesforce-sales-cloud/salesforce-properties-setup.html
+          url: /integrations/salesforce-sales-cloud/salesforce-properties-setup.html
         - name: Audience Insights Salesforce Integration Setup
-          url: /integration/salesforce-sales-cloud/audience-insights-publish-integration-setup.html
+          url: /integrations/salesforce-sales-cloud/audience-insights-publish-integration-setup.html
 - section: 
   name: 'Use Cases'
   url: '/use-cases/index.html'
