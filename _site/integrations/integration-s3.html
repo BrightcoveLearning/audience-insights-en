@@ -712,29 +712,31 @@
 <article class="bcls-article">
   <summary>In this topic you will learn about integrating Audience Insights with S3,</summary>
   <section class="bcls-section">
-    <h2 id=""></h2>
-    <p></p>
+    <h2 id="About_the_S3_integration">About the S3 integration</h2>
+    <p>When the S3 integration is set up, Brightcove creates an AWS S3 bucket that Audience Insights reports are automatically exported to on a daily or weekly basis (depending on the setup). One or more AWS admins in the customer Brightcove account are given access to the S3 bucket and can grant access to other users so that they can review the reports.</p>
   </section>
 </article>
 
   <section class="bcls-section">
   <h2 id="Overview">Overview</h2>
-  <p>When you set up an integration with S3, data reports are automatically exported to an S3 bucket called "reports.wicketlabs.com" and available to be viewed or downloaded from there.</p>
+  <p>When you set up an integration with S3, data reports are automatically exported to an S3 bucket called <code translate="No">reports.wicketlabs.com</code> and available to be viewed or downloaded from there.</p>
 
   
   <p>From Audience Insights, you can manually generate reports. If an S3 integration is set up, they can publish any of these reports to S3. You can also add users who can view/download the reports by applying the policy described below to other AWS users.</p>
   
+  <p>The reports will be exported to S3 on a daily or weekly basis, according to the schedule you set up, and will be available to those you given access by an admin on your AWS account (steps are shown below).</p>
+  <h3>Requirements</h3>
+  <ul>
+    <li>You must have an AWS account</li>
+    
+    <li>You must be an admin on a full Audience Insights account to set up the integration in Audience Insights</li>
+    
+  </ul>
 </section>
 
 
-  <h1>Integration: S3</h1>
-<article class="bcls-article">
-  <summary>In this topic you will learn about integrating Audience Insights with S3,</summary>
-  <section class="bcls-section">
-    <h2 id=""></h2>
-    <p></p>
-  </section>
-</article>
+  
+
 
   <h1>Integration: S3</h1>
 <article class="bcls-article">
@@ -758,9 +760,9 @@
     </ol>
   </section>
 </article>
-
   
-
+  <!-- include s-audience-insights/integration/s3-setup-user-permissions.html -->
+  
   </article>
 <!-- <div class="col-sm-2 right-side-bar" style="display: inline-block;max-width: 20%;"> -->
   
