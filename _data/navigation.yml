@@ -97,6 +97,8 @@
       url: /integrations/integration-summary.html
     - name: 'Braze'
       url: /integrations/integration_spotlight_braze.html
+    - name: 'Eloqua'
+      url: /integrations/integration_eloqua.html
     - name: 'Evergent'
       url: /integrations/integration_spotlight_evergent.html
     - name: 'HubSpot'
