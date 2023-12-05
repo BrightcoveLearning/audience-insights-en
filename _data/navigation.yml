@@ -116,6 +116,8 @@
           url: /integrations/salesforce-sales-cloud/salesforce-properties-setup.html
         - name: Audience Insights Salesforce Integration Setup
           url: /integrations/salesforce-sales-cloud/audience-insights-publish-integration-setup.html
+        - name: 'Integration: S3'
+          url: /integrations/integration-s3.html
 - section: 
   name: 'Use Cases'
   url: '/use-cases/index.html'
