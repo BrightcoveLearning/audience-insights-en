@@ -105,6 +105,10 @@
       url: /integrations/integration_spotlight_hubspot.html
     - name: 'Vimeo'
       url: /integrations/integration_spotlight_vimeo.html
+    - name: 'Blueshift'
+      url: /integrations/integration_spotlight_blueshift.html
+    - name: 'Integration: S3'
+      url: /integrations/integration-s3.html
     - name: Salesforce Sales Cloud
       url: /integrations/salesforce-sales-cloud/index.html
       docs:
@@ -116,8 +120,6 @@
           url: /integrations/salesforce-sales-cloud/salesforce-properties-setup.html
         - name: Audience Insights Salesforce Integration Setup
           url: /integrations/salesforce-sales-cloud/audience-insights-publish-integration-setup.html
-        - name: 'Integration: S3'
-          url: /integrations/integration-s3.html
 - section: 
   name: 'Use Cases'
   url: '/use-cases/index.html'
