@@ -20,12 +20,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integration/salesforce-sales-cloud/audience-insights-publish-integration-setup.html",
+      "newURL": "https://audience-insights.support.brightcove.com/integrations/salesforce-sales-cloud/audience-insights-publish-integration-setup.html",
       "oldURL": "/audience-insights-publish-integration-setup"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integrations/salesforce-sales-cloud/audience-insights-publish-integration-setup.html",
+      "newURL": "https://audience-insights.support.brightcove.com/integration/salesforce-sales-cloud/audience-insights-publish-integration-setup.html",
       "oldURL": "/audience-insights-publish-integration-setup"
   },
 
@@ -70,12 +70,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/content-as-context-for-better-segmentation.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/content-as-context-for-better-segmentation.html",
       "oldURL": "/content-as-context-for-better-segmentation"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/content-as-context-for-better-segmentation.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/content-as-context-for-better-segmentation.html",
       "oldURL": "/content-as-context-for-better-segmentation"
   },
 
@@ -260,22 +260,7 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/content/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/use-cases/win-back/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/",
+      "newURL": "https://audience-insights.support.brightcove.com/guides/conversions/",
       "oldURL": "/index"
   },
 
@@ -285,17 +270,7 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integrations/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/integrations/salesforce-sales-cloud/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/engagement/",
+      "newURL": "https://audience-insights.support.brightcove.com/general/",
       "oldURL": "/index"
   },
 
@@ -305,7 +280,22 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/customers/",
+      "newURL": "https://audience-insights.support.brightcove.com/integration/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/integrations/salesforce-sales-cloud/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/integrations/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/retention/",
       "oldURL": "/index"
   },
 
@@ -315,12 +305,7 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/conversions/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/distribution/",
+      "newURL": "https://audience-insights.support.brightcove.com/use-cases/win-back/",
       "oldURL": "/index"
   },
 
@@ -335,22 +320,37 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integration/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/use-cases/retention/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/general/",
-      "oldURL": "/index"
-  },
-
-  {
       "newURL": "https://audience-insights.support.brightcove.com/support/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/guides/customers/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/guides/distribution/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/guides/content/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/guides/engagement/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/guides/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/",
       "oldURL": "/index"
   },
 
@@ -400,22 +400,22 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integration/integration_spotlight_evergent.html",
-      "oldURL": "/integration_spotlight_evergent"
-  },
-
-  {
       "newURL": "https://audience-insights.support.brightcove.com/integrations/integration_spotlight_evergent.html",
       "oldURL": "/integration_spotlight_evergent"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integration/integration_spotlight_hubspot.html",
-      "oldURL": "/integration_spotlight_hubspot"
+      "newURL": "https://audience-insights.support.brightcove.com/integration/integration_spotlight_evergent.html",
+      "oldURL": "/integration_spotlight_evergent"
   },
 
   {
       "newURL": "https://audience-insights.support.brightcove.com/integrations/integration_spotlight_hubspot.html",
+      "oldURL": "/integration_spotlight_hubspot"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/integration/integration_spotlight_hubspot.html",
       "oldURL": "/integration_spotlight_hubspot"
   },
 
@@ -490,12 +490,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/measuring-content-momentum.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/measuring-content-momentum.html",
       "oldURL": "/measuring-content-momentum"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/measuring-content-momentum.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/measuring-content-momentum.html",
       "oldURL": "/measuring-content-momentum"
   },
 
@@ -535,12 +535,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integration/salesforce-sales-cloud/overview-sfsc-integration.html",
+      "newURL": "https://audience-insights.support.brightcove.com/integrations/salesforce-sales-cloud/overview-sfsc-integration.html",
       "oldURL": "/overview-sfsc-integration"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integrations/salesforce-sales-cloud/overview-sfsc-integration.html",
+      "newURL": "https://audience-insights.support.brightcove.com/integration/salesforce-sales-cloud/overview-sfsc-integration.html",
       "oldURL": "/overview-sfsc-integration"
   },
 
@@ -552,6 +552,11 @@
   {
       "newURL": "https://audience-insights.support.brightcove.com/use-cases/retention/promoting_upgrades_to_annual_plans.html",
       "oldURL": "/promoting_upgrades_to_annual_plans"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/insights/publisher_insights.html",
+      "oldURL": "/publisher_insights"
   },
 
   {
@@ -585,22 +590,22 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integrations/salesforce-sales-cloud/salesforce-connected-app-setup.html",
-      "oldURL": "/salesforce-connected-app-setup"
-  },
-
-  {
       "newURL": "https://audience-insights.support.brightcove.com/integration/salesforce-sales-cloud/salesforce-connected-app-setup.html",
       "oldURL": "/salesforce-connected-app-setup"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integration/salesforce-sales-cloud/salesforce-properties-setup.html",
-      "oldURL": "/salesforce-properties-setup"
+      "newURL": "https://audience-insights.support.brightcove.com/integrations/salesforce-sales-cloud/salesforce-connected-app-setup.html",
+      "oldURL": "/salesforce-connected-app-setup"
   },
 
   {
       "newURL": "https://audience-insights.support.brightcove.com/integrations/salesforce-sales-cloud/salesforce-properties-setup.html",
+      "oldURL": "/salesforce-properties-setup"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/integration/salesforce-sales-cloud/salesforce-properties-setup.html",
       "oldURL": "/salesforce-properties-setup"
   },
 
@@ -670,12 +675,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/understanding-content-through-the-lens-o.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/understanding-content-through-the-lens-o.html",
       "oldURL": "/understanding-content-through-the-lens-o"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/understanding-content-through-the-lens-o.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/understanding-content-through-the-lens-o.html",
       "oldURL": "/understanding-content-through-the-lens-o"
   },
 
