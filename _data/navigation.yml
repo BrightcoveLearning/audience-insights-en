@@ -103,6 +103,8 @@
       url: /integrations/integration_spotlight_evergent.html
     - name: 'HubSpot'
       url: /integrations/integration_spotlight_hubspot.html
+    - name: 'Marketo'
+      url: /integrations/integration_marketo.html
     - name: 'Vimeo'
       url: /integrations/integration_spotlight_vimeo.html
     - name: 'Blueshift'
