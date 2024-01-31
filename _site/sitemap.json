@@ -185,12 +185,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/enhance-hubspot-campaigns-with-the-wicke.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/enhance-hubspot-campaigns-with-the-wicke.html",
       "oldURL": "/enhance-hubspot-campaigns-with-the-wicke"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/enhance-hubspot-campaigns-with-the-wicke.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/enhance-hubspot-campaigns-with-the-wicke.html",
       "oldURL": "/enhance-hubspot-campaigns-with-the-wicke"
   },
 
@@ -260,7 +260,7 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/conversions/",
+      "newURL": "https://audience-insights.support.brightcove.com/guides/",
       "oldURL": "/index"
   },
 
@@ -330,6 +330,11 @@
   },
 
   {
+      "newURL": "https://audience-insights.support.brightcove.com/guides/conversions/",
+      "oldURL": "/index"
+  },
+
+  {
       "newURL": "https://audience-insights.support.brightcove.com/guides/distribution/",
       "oldURL": "/index"
   },
@@ -341,11 +346,6 @@
 
   {
       "newURL": "https://audience-insights.support.brightcove.com/guides/engagement/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience-insights.support.brightcove.com/guides/",
       "oldURL": "/index"
   },
 
@@ -365,12 +365,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integration/integration-summary.html",
+      "newURL": "https://audience-insights.support.brightcove.com/integrations/integration-summary.html",
       "oldURL": "/integration-summary"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integrations/integration-summary.html",
+      "newURL": "https://audience-insights.support.brightcove.com/integration/integration-summary.html",
       "oldURL": "/integration-summary"
   },
 
@@ -420,12 +420,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integration/integration_spotlight_vimeo.html",
+      "newURL": "https://audience-insights.support.brightcove.com/integrations/integration_spotlight_vimeo.html",
       "oldURL": "/integration_spotlight_vimeo"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integrations/integration_spotlight_vimeo.html",
+      "newURL": "https://audience-insights.support.brightcove.com/integration/integration_spotlight_vimeo.html",
       "oldURL": "/integration_spotlight_vimeo"
   },
 
@@ -490,12 +490,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/measuring-content-momentum.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/measuring-content-momentum.html",
       "oldURL": "/measuring-content-momentum"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/measuring-content-momentum.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/measuring-content-momentum.html",
       "oldURL": "/measuring-content-momentum"
   },
 
@@ -520,12 +520,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/ott-benchmarks-%E2%80%93-how-do-you-compare-to-y.html",
+      "newURL": "https://audience-insights.support.brightcove.com/general/ott-benchmarks-%E2%80%93-how-do-you-compare-to-y.html",
       "oldURL": "/ott-benchmarks-–-how-do-you-compare-to-y"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/general/ott-benchmarks-%E2%80%93-how-do-you-compare-to-y.html",
+      "newURL": "https://audience-insights.support.brightcove.com/source-docs/blog-posts/ott-benchmarks-%E2%80%93-how-do-you-compare-to-y.html",
       "oldURL": "/ott-benchmarks-–-how-do-you-compare-to-y"
   },
 
@@ -535,12 +535,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integrations/salesforce-sales-cloud/overview-sfsc-integration.html",
+      "newURL": "https://audience-insights.support.brightcove.com/integration/salesforce-sales-cloud/overview-sfsc-integration.html",
       "oldURL": "/overview-sfsc-integration"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integration/salesforce-sales-cloud/overview-sfsc-integration.html",
+      "newURL": "https://audience-insights.support.brightcove.com/integrations/salesforce-sales-cloud/overview-sfsc-integration.html",
       "oldURL": "/overview-sfsc-integration"
   },
 
@@ -557,6 +557,11 @@
   {
       "newURL": "https://audience-insights.support.brightcove.com/insights/publisher_insights.html",
       "oldURL": "/publisher_insights"
+  },
+
+  {
+      "newURL": "https://audience-insights.support.brightcove.com/insights/publisher_insights_content.html",
+      "oldURL": "/publisher_insights_content"
   },
 
   {
@@ -595,12 +600,12 @@
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integrations/salesforce-sales-cloud/salesforce-connected-app-setup.html",
+      "newURL": "https://audience-insights.support.brightcove.com/integration/salesforce-sales-cloud/salesforce-connected-app-setup.html",
       "oldURL": "/salesforce-connected-app-setup"
   },
 
   {
-      "newURL": "https://audience-insights.support.brightcove.com/integration/salesforce-sales-cloud/salesforce-connected-app-setup.html",
+      "newURL": "https://audience-insights.support.brightcove.com/integrations/salesforce-sales-cloud/salesforce-connected-app-setup.html",
       "oldURL": "/salesforce-connected-app-setup"
   },
 
