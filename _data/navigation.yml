@@ -4,7 +4,7 @@
 - section: 
   name: 'Getting Started'
   url: '/getting-started/index.html'
-  icon: fa-regular fa-map-pin
+  icon: fa-solid fa-map-pin
   description: Guides to help you get started with Audience Insights.
   docs:
     - name: 'Overview: Audience Insights'
@@ -14,7 +14,7 @@
 - section:
   name: 'General Information'
   url: '/general/index.html'
-  icon: fa-regular fa-circle-info
+  icon: fa-solid fa-circle-info
   description: General topics relating to Audience Insights.
   docs:
     - name: 'Automating Smarter Campaigns with User Segments'
@@ -42,7 +42,7 @@
 - section: 
   name: 'Guides'
   url: '/guides/index.html'
-  icon: fa-light fa-signs-post
+  icon: fa-solid fa-signs-post
   description: Guides to working with each section of Audience Insights data.
   docs:
     - name: Customer Summary
@@ -82,7 +82,7 @@
 - section:
   name: 'Insights'
   url: '/insights/index.html'
-  icon: fa-regular fa-chart-simple
+  icon: fa-solid fa-chart-simple
   description: This section provides some deep dives in to key metrics for managing your business.
   docs:
     - name: 'Linear Insights'
@@ -90,7 +90,7 @@
 - section:
   name: 'Integrations'
   url: '/integrations/index.html'
-  icon: "fa-regular fa-puzzle-piece-simple"
+  icon: "fa-solid fa-puzzle-piece"
   description: This section contains topics about partner integrations.
   docs:
     - name: 'Integrations Summary'
@@ -125,7 +125,7 @@
 - section: 
   name: 'Use Cases'
   url: '/use-cases/index.html'
-  icon: 'fa-light fa-house-turret'
+  icon: 'fa-solid fa-house-chimney-user'
   description: Learn about specific use cases for Audience Insights.
   docs:
     - name: "Acquisition"
@@ -163,7 +163,7 @@
 - section: 
   name: 'Support'
   url: '/support/'
-  icon: 'fa-regular fa-comments-question-check'
+  icon: 'fa-regular fa-comments'
   description: Learn how to get help from Brightcove Support.
   docs:
     - name: 'Contact Sales'
