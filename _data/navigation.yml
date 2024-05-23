@@ -95,6 +95,8 @@
   docs:
     - name: 'Integrations Summary'
       url: /integrations/integration-summary.html
+    - name: 'Properties'
+      url: /integrations/properties.html
     - name: 'Braze'
       url: /integrations/integration_spotlight_braze.html
     - name: 'Eloqua'
