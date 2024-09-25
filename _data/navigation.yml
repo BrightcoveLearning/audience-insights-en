@@ -113,6 +113,8 @@
       url: /integrations/integration_spotlight_blueshift.html
     - name: 'Integration: S3'
       url: /integrations/integration-s3.html
+    - name: 'Test Integration'
+      url: /integrations/test_integration.html
     - name: Salesforce Sales Cloud
       url: /integrations/salesforce-sales-cloud/index.html
       docs:
